@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gadgets")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7da7c3af2cae7fd3a33ee290b0e4d103a809f21")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gadgets")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gadgets")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

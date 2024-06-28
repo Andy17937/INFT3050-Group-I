@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Andy\\Documents\\GitHub\\INFT3050-Group-I\\Gadgets\\Gadgets\\Gadgets.csproj": {}
+    "C:\\Users\\Andy\\Desktop\\INFT\\Gadgets\\Gadgets\\Gadgets.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Andy\\Documents\\GitHub\\INFT3050-Group-I\\Gadgets\\Gadgets\\Gadgets.csproj": {
+    "C:\\Users\\Andy\\Desktop\\INFT\\Gadgets\\Gadgets\\Gadgets.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andy\\Documents\\GitHub\\INFT3050-Group-I\\Gadgets\\Gadgets\\Gadgets.csproj",
+        "projectUniqueName": "C:\\Users\\Andy\\Desktop\\INFT\\Gadgets\\Gadgets\\Gadgets.csproj",
         "projectName": "Gadgets",
-        "projectPath": "C:\\Users\\Andy\\Documents\\GitHub\\INFT3050-Group-I\\Gadgets\\Gadgets\\Gadgets.csproj",
+        "projectPath": "C:\\Users\\Andy\\Desktop\\INFT\\Gadgets\\Gadgets\\Gadgets.csproj",
         "packagesPath": "C:\\Users\\Andy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andy\\Documents\\GitHub\\INFT3050-Group-I\\Gadgets\\Gadgets\\obj\\",
+        "outputPath": "C:\\Users\\Andy\\Desktop\\INFT\\Gadgets\\Gadgets\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Visual Studio\\SDK\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Andy\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
