@@ -1,0 +1,15 @@
+.line-container {
+    width: 100%;
+    background: url(../img/line.jpg) left center repeat-x;
+    text-align: center;
+}
+.line {
+    display: inline-block;
+    padding: 0 10px;
+    text-align: center;
+    font-family: 'Microsoft Yahei';
+    font-size: 24px;
+    background: #fff;
+    color: #000000;
+    line-height: 1.3;
+}
