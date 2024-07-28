@@ -269,7 +269,7 @@ export default {
       }).then(({ data }) => {
         if (data && data.code === 0) {
           this.$message({
-            message: "Register成功",
+            message: "Register Successed",
             type: "success",
             duration: 1500,
             onClose: () => {

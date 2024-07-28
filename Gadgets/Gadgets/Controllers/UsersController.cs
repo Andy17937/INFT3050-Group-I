@@ -86,7 +86,7 @@ namespace Gadgets.Controllers
             {
                 if (_bll.BaseInsert(entity) > 0)
                 {
-                    return Json(new { Code = 0, Msg = "Register成功！" });
+                    return Json(new { Code = 0, Msg = "Register Successed！" });
                 }
 
                 return Json(new { Code = -1, Msg = "Register失败！" });
