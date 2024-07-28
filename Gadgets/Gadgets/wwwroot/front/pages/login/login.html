@@ -130,14 +130,14 @@
             form.on('submit(login)', function(data) {
                 data = data.field;
                 if (!data.role) {
-                    layer.msg('请OptionLogin用户类型', {
+                    layer.msg('Please Select Login User Type', {
                         time: 2000,
                         icon: 5
                     });
                     return false;
                 }
                 http.request(data.role + '/login', 'get', data, function(res) {
-                    layer.msg('Login成功', {
+                    layer.msg('Login Successed', {
                         time: 2000,
                         icon: 6
                     });

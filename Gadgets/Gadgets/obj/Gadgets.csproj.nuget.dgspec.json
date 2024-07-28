@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Andy\\Desktop\\3050\\src\\Gadgets.csproj": {}
+    "D:\\github\\Personal\\INFT3050-Group-I\\Gadgets\\Gadgets\\Gadgets.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Andy\\Desktop\\3050\\src\\Gadgets.csproj": {
+    "D:\\github\\Personal\\INFT3050-Group-I\\Gadgets\\Gadgets\\Gadgets.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andy\\Desktop\\3050\\src\\Gadgets.csproj",
+        "projectUniqueName": "D:\\github\\Personal\\INFT3050-Group-I\\Gadgets\\Gadgets\\Gadgets.csproj",
         "projectName": "Gadgets",
-        "projectPath": "C:\\Users\\Andy\\Desktop\\3050\\src\\Gadgets.csproj",
-        "packagesPath": "C:\\Users\\Andy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andy\\Desktop\\3050\\src\\obj\\",
+        "projectPath": "D:\\github\\Personal\\INFT3050-Group-I\\Gadgets\\Gadgets\\Gadgets.csproj",
+        "packagesPath": "C:\\Users\\31303\\.nuget\\packages\\",
+        "outputPath": "D:\\github\\Personal\\INFT3050-Group-I\\Gadgets\\Gadgets\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Visual Studio\\SDK\\NuGetPackages"
+          "D:\\others\\inft2051-vs-others\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Andy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\31303\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -39,11 +39,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -91,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
