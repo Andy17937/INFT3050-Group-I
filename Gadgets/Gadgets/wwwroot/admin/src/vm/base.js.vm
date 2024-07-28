@@ -1,0 +1,6 @@
+const base = {
+    url : "http://localhost:5000/${schemaname}/",
+    name: "${schemaname}"
+}
+
+export default base
