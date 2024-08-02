@@ -7100,7 +7100,7 @@
     });
 
     var owner$1 = 'form';
-    var schema$9 = [field$1('formBehaviours', [Representing])];
+    var schema$9 = [field$1('foSGDehaviours', [Representing])];
     var getPartName = function (name) {
       return '<alloy.field.' + name + '>';
     };
@@ -7138,7 +7138,7 @@
         uid: detail.uid,
         dom: detail.dom,
         components: components,
-        behaviours: augment(detail.formBehaviours, [Representing.config({
+        behaviours: augment(detail.foSGDehaviours, [Representing.config({
             store: {
               mode: 'manual',
               getValue: function (form) {
@@ -7349,7 +7349,7 @@
                 }) : parts.field(field.name, field.spec);
               })
             })],
-          formBehaviours: derive$1([
+          foSGDehaviours: derive$1([
             Receivers.orientation(function (dialog, message) {
               reposition(dialog, message);
             }),

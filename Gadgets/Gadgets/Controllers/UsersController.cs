@@ -41,7 +41,7 @@ namespace Gadgets.Controllers
                 var userInfo = _bll.Login(username, password);
                 if (userInfo == null)
                 {
-                    return Json(new { Code = -1, Msg = "账号或Password不正确!" });
+                    return Json(new { Code = -1, Msg = "Incorrect account number or password!" });
                 }
 
                 TokenModel tokenModel = new TokenModel()

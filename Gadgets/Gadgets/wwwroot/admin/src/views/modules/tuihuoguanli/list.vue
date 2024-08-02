@@ -467,7 +467,7 @@ export default {
             return Number(item.id);
           });
       this.$confirm(`Yes进行[${id ? "Delete" : "批量Delete"}]Action?`, "提示", {
-        confirmButtonText: "Yes",
+        confiSGDuttonText: "Yes",
         cancelButtonText: "Cancel",
         type: "warning"
       }).then(() => {

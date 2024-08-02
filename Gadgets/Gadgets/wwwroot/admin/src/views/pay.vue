@@ -82,7 +82,7 @@ export default {
         return;
       }
       this.$confirm(`YesPay?`, "提示", {
-        confirmButtonText: "Yes",
+        confiSGDuttonText: "Yes",
         cancelButtonText: "Cancel",
         type: "warning"
       }).then(() => {

@@ -91,8 +91,8 @@ C:\Users\Andy\Desktop\3050\src\obj\Debug\net8.0\refint\Gadgets.dll
 C:\Users\Andy\Desktop\3050\src\obj\Debug\net8.0\Gadgets.pdb
 C:\Users\Andy\Desktop\3050\src\obj\Debug\net8.0\Gadgets.genruntimeconfig.cache
 C:\Users\Andy\Desktop\3050\src\obj\Debug\net8.0\ref\Gadgets.dll
-D:\Github\INFT3050-Group-I\Gadgets\Gadgets\bin\Debug\net6.0\net8.0\appsettings.json
 D:\Github\INFT3050-Group-I\Gadgets\Gadgets\bin\Debug\net6.0\net8.0\appsettings.Development.json
+D:\Github\INFT3050-Group-I\Gadgets\Gadgets\bin\Debug\net6.0\net8.0\appsettings.json
 D:\Github\INFT3050-Group-I\Gadgets\Gadgets\bin\Debug\net6.0\net8.0\Gadgets.exe
 D:\Github\INFT3050-Group-I\Gadgets\Gadgets\bin\Debug\net6.0\net8.0\Gadgets.deps.json
 D:\Github\INFT3050-Group-I\Gadgets\Gadgets\bin\Debug\net6.0\net8.0\Gadgets.runtimeconfig.json

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Github\\INFT3050-Group-I\\Gadgets\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\front\\pages\\login\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\front\\pages\\login\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\admin\\dist\\js\\app.dcf56c23.js.map||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\admin\\dist\\js\\app.dcf56c23.js.map||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\front\\pages\\login\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\front\\pages\\login\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "app.dcf56c23.js.map",
               "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\admin\\dist\\js\\app.dcf56c23.js.map",
               "RelativeDocumentMoniker": "Gadgets\\wwwroot\\admin\\dist\\js\\app.dcf56c23.js.map",
               "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\admin\\dist\\js\\app.dcf56c23.js.map",
               "RelativeToolTip": "Gadgets\\wwwroot\\admin\\dist\\js\\app.dcf56c23.js.map",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAADoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA1RwAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-07-28T13:32:58.422Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "login.html",
               "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\pages\\login\\login.html",
               "RelativeDocumentMoniker": "Gadgets\\wwwroot\\front\\pages\\login\\login.html",
               "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\pages\\login\\login.html",
               "RelativeToolTip": "Gadgets\\wwwroot\\front\\pages\\login\\login.html",
-              "ViewState": "AQIAADkAAAAAcmZmZmYEwFUAAAB8AQAA",
+              "ViewState": "AQIAABwAAAAABwAAAAARwC4AAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-07-28T13:24:47.076Z",
               "EditorCaption": ""

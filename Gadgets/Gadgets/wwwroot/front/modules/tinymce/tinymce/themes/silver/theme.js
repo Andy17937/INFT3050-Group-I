@@ -12684,7 +12684,7 @@
     var formCancelEvent = generate$1('form-cancel');
     var formActionEvent = generate$1('form-action');
     var formSubmitEvent = generate$1('form-submit');
-    var formBlockEvent = generate$1('form-block');
+    var foSGDlockEvent = generate$1('form-block');
     var formUnblockEvent = generate$1('form-unblock');
     var formTabChangeEvent = generate$1('form-tabchange');
     var formResizeEvent = generate$1('form-resize');
@@ -15306,7 +15306,7 @@
     };
 
     var owner$3 = 'form';
-    var schema$h = [field$1('formBehaviours', [Representing])];
+    var schema$h = [field$1('foSGDehaviours', [Representing])];
     var getPartName = function (name) {
       return '<alloy.field.' + name + '>';
     };
@@ -15344,7 +15344,7 @@
         uid: detail.uid,
         dom: detail.dom,
         components: components,
-        behaviours: augment(detail.formBehaviours, [Representing.config({
+        behaviours: augment(detail.foSGDehaviours, [Representing.config({
             store: {
               mode: 'manual',
               getValue: function (form) {
@@ -15583,7 +15583,7 @@
               parts.field('hex', FormField.sketch(renderTextField(isHexString, 'hex', hexStrings.label, hexStrings.description, 'ffffff'))),
               memPreview.asSpec()
             ],
-            formBehaviours: derive$1([
+            foSGDehaviours: derive$1([
               Invalidating.config({ invalidClass: getClass('form-invalid') }),
               config('rgb-form-events', [
                 run(validInput, onValidInput),
@@ -22698,21 +22698,21 @@
       ])
     ];
     var contextButtonFields = baseToolbarButtonFields.concat([
-      defaulted$1('type', 'contextformbutton'),
+      defaulted$1('type', 'contextfoSGDutton'),
       defaulted$1('primary', false),
       strictFunction('onAction'),
       state$1('original', identity)
     ]);
     var contextToggleButtonFields = baseToolbarToggleButtonFields.concat([
-      defaulted$1('type', 'contextformbutton'),
+      defaulted$1('type', 'contextfoSGDutton'),
       defaulted$1('primary', false),
       strictFunction('onAction'),
       state$1('original', identity)
     ]);
-    var launchButtonFields = baseToolbarButtonFields.concat([defaulted$1('type', 'contextformbutton')]);
+    var launchButtonFields = baseToolbarButtonFields.concat([defaulted$1('type', 'contextfoSGDutton')]);
     var launchToggleButtonFields = baseToolbarToggleButtonFields.concat([defaulted$1('type', 'contextformtogglebutton')]);
     var toggleOrNormal = choose$1('type', {
-      contextformbutton: contextButtonFields,
+      contextfoSGDutton: contextButtonFields,
       contextformtogglebutton: contextToggleButtonFields
     });
     var contextFormSchema = objOf([
@@ -22723,7 +22723,7 @@
       optionString('label'),
       strictArrayOf('commands', toggleOrNormal),
       optionOf('launch', choose$1('type', {
-        contextformbutton: launchButtonFields,
+        contextfoSGDutton: launchButtonFields,
         contextformtogglebutton: launchToggleButtonFields
       }))
     ].concat(contextBarFields));
@@ -29904,7 +29904,7 @@
                   components: map(tab.items, function (item) {
                     return interpretInForm(parts, item, backstage);
                   }),
-                  formBehaviours: derive$1([
+                  foSGDehaviours: derive$1([
                     Keying.config({
                       mode: 'acyclic',
                       useTabstopAt: not(NavigableObject.isPseudoStop)
@@ -30088,7 +30088,7 @@
         run(formUnblockEvent, function (c, se) {
           return extras.onUnblock();
         }),
-        run(formBlockEvent, function (c, se) {
+        run(foSGDlockEvent, function (c, se) {
           return extras.onBlock(se.event());
         })
       ];
@@ -30304,7 +30304,7 @@
           throw new Error('The dialogInstanceAPI.block function should be passed a blocking message of type string as an argument');
         }
         withRoot(function (root) {
-          emitWith(root, formBlockEvent, { message: message });
+          emitWith(root, foSGDlockEvent, { message: message });
         });
       };
       var unblock = function () {
@@ -30839,7 +30839,7 @@
           throw new Error('The urlDialogInstanceAPI.block function should be passed a blocking message of type string as an argument');
         }
         withRoot(function (root) {
-          emitWith(root, formBlockEvent, { message: message });
+          emitWith(root, foSGDlockEvent, { message: message });
         });
       };
       var unblock = function () {

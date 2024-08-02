@@ -91,7 +91,7 @@
 									{{item.goodname}}
 								</div>
 							</td>
-							<td style="width: 100px;">{{item.price}} RMB</td>
+							<td style="width: 100px;">{{item.price}} SGD</td>
 							<td style="width: 140px;">
 								<div class="num-picker">
 									<button type="button" @click="reduceCartNum(index)" class="layui-btn layui-btn-primary">-</button>
@@ -100,7 +100,7 @@
 									<button type="button" @click="addCartNum(index)" class="layui-btn layui-btn-primary">+</button>
 								</div>
 							</td>
-							<td style="width: 100px;">{{(item.price*item.buynumber).toFixed(2)}} RMB</td>
+							<td style="width: 100px;">{{(item.price*item.buynumber).toFixed(2)}} SGD</td>
 							<td style="width: 100px;">
 								<button @click="deleteCart(index)" type="button" class="layui-btn layui-btn-radius btn-theme">
 									<i class="layui-icon">&#xe640;</i> Delete
@@ -112,7 +112,7 @@
 
 				<div class="btn-container">
 					<span style="font-size: 18px;font-weight: bold;color: red;margin-right: 20px;">
-						Total Price：{{totalPrice}}RMB
+						Total Price：{{totalPrice}}SGD
 					</span>
 					<button :style='{"padding":"0 10px","boxShadow":"","margin":"0 5px","borderColor":"rgba(0,0,0,.3)","backgroundColor":"#fff","color":"rgba(51, 51, 51, 1)","borderRadius":"4px","borderWidth":"1px","width":"auto","lineHeight":"34px","fontSize":"14px","borderStyle":"solid"}'  @click="buyClick" type="button" class="layui-btn layui-btn-lg btn-theme">
 						<i class="layui-icon">&#xe657;</i> Check Out

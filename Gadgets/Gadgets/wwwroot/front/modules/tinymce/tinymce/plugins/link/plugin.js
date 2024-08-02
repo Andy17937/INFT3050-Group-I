@@ -1796,7 +1796,7 @@
             }
           },
           {
-            type: 'contextformbutton',
+            type: 'contextfoSGDutton',
             icon: 'unlink',
             tooltip: 'Remove link',
             onSetup: onSetupLink,
@@ -1806,7 +1806,7 @@
             }
           },
           {
-            type: 'contextformbutton',
+            type: 'contextfoSGDutton',
             icon: 'new-tab',
             tooltip: 'Open link',
             onSetup: onSetupLink,
