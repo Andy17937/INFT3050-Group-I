@@ -13,7 +13,7 @@ using Gadgets.Models.ViewModel;
 namespace Gadgets.Controllers
 {
     /// <summary>
-    /// 公Total接口
+    /// public interface
     /// </summary>
     [Route("[action]")]
     public class CommonController : Controller
@@ -83,11 +83,11 @@ namespace Gadgets.Controllers
         }
 
         /// <summary>
-        /// 根据Primary key idModifytable表的sfshStatus接口
+        /// Based on the sfshStatus interface of the primary key idModifytable table
         /// </summary>
         /// <param name="tableName">table name</param>
         /// <param name="id">Primary key id</param>
-        /// <param name="sfsh">当前审核Status（Yes/No）</param>
+        /// <param name="sfsh">Current Audit Status（Yes/No）</param>
         /// <returns></returns>
         [HttpPost("{tableName}")]
         [Authorize(Roles = "Admin,Client")]
@@ -109,13 +109,13 @@ namespace Gadgets.Controllers
         }
 
         /// <summary>
-        /// 获取需要提醒的记录数接口
+        /// Get Number of Records to Remind Interface
         /// </summary>
         /// <param name="tableName">table name</param>
         /// <param name="columnName">listings</param>
-        /// <param name="type">类型（1表示数字比较提醒，2表示日期比较提醒）</param>
-        /// <param name="remindStart">remindStart小于等于columnName满足Result件提醒,当比较日期时，该Value表示天数</param>
-        /// <param name="remindEnd">columnName小于等于remindEnd 满足Result件提醒,当比较日期时，该Value表示天数</param>
+        /// <param name="type">Type (1 for numeric comparison reminders, 2 for date comparison reminders)</param>
+        /// <param name="remindStart">remindStart is less than or equal to columnName to meet the Result pieces remind, when comparing the date, the Value represents the number of days</param>
+        /// <param name="remindEnd">columnName is less than or equal to remindEnd meet Result pieces remind, when comparing the date, the Value represents the number of days</param>
         /// <returns></returns>
         [HttpGet("{tableName}/{columnName}/{type}")]
         public JsonResult Remind(string tableName, string columnName, int type, int remindStart, int remindEnd)
@@ -131,7 +131,7 @@ namespace Gadgets.Controllers
         }
 
         /// <summary>
-        /// 计算规则接口
+        /// Computation Rules Interface
         /// </summary>
         /// <param name="tableName">table name</param>
         /// <param name="columnName">listings</param>
@@ -150,10 +150,10 @@ namespace Gadgets.Controllers
         }
 
         /// <summary>
-        /// 人脸比较
+        /// Face Comparison
         /// </summary>
-        /// <param name="face1">图片1Name</param>
-        /// <param name="face2">图片2Name</param>
+        /// <param name="face1">Pic1Name</param>
+        /// <param name="face2">Pic2Name</param>
         /// <returns></returns>
         [HttpGet]
         public JsonResult MatchFace(string face1, string face2)
@@ -186,10 +186,10 @@ namespace Gadgets.Controllers
         }
 
         /// <summary>
-        /// Locate接口（根据经纬度坐标获取到省市县(区)Message）
+        /// Locate interface (based on latitude and longitude coordinates to get the province, city and county (district) Message)
         /// </summary>
-        /// <param name="lat">经度</param>
-        /// <param name="lng">纬度</param>
+        /// <param name="lat">longitudes</param>
+        /// <param name="lng">longitude</param>
         /// <returns></returns>
         [HttpGet]
         public JsonResult Location(double lat, double lng)
@@ -199,7 +199,7 @@ namespace Gadgets.Controllers
                 AddressViewModel addressViewModel = BaiduAiHelper.GetAddress(_configBLL.GetValueByName("baidu_ditu_ak"), lng, lat);
                 if (addressViewModel == null)
                 {
-                    return Json(new { Code = -1, Msg = "位置Message获取失败！" });
+                    return Json(new { Code = -1, Msg = "Failed to get location information!" });
                 }
                 else
                 {
@@ -213,7 +213,7 @@ namespace Gadgets.Controllers
         }
 
         /// <summary>
-        /// 类别统计接口
+        /// Category Statistics Interface
         /// </summary>
         /// <param name="tableName">table name</param>
         /// <param name="columnName">listings</param>
@@ -232,7 +232,7 @@ namespace Gadgets.Controllers
         }
 
         /// <summary>
-        /// 按Value统计接口
+        /// Statistics by Value interface
         /// </summary>
         /// <param name="tableName">table name</param>
         /// <param name="xColumnName">listings</param>

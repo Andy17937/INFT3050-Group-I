@@ -7242,32 +7242,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Andy\\.nuget\\packages\\": {},
-    "D:\\Visual Studio\\SDK\\NuGetPackages": {}
+    "/Users/andy/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\Gadgets.csproj",
+      "projectUniqueName": "/Users/andy/Documents/GitHub/INFT3050-Group-I/Gadgets/Gadgets/Gadgets.csproj",
       "projectName": "Gadgets",
-      "projectPath": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\Gadgets.csproj",
-      "packagesPath": "C:\\Users\\Andy\\.nuget\\packages\\",
-      "outputPath": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\obj\\",
+      "projectPath": "/Users/andy/Documents/GitHub/INFT3050-Group-I/Gadgets/Gadgets/Gadgets.csproj",
+      "packagesPath": "/Users/andy/.nuget/packages/",
+      "outputPath": "/Users/andy/Documents/GitHub/INFT3050-Group-I/Gadgets/Gadgets/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\Visual Studio\\SDK\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Andy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/andy/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -7280,11 +7273,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -7332,7 +7320,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

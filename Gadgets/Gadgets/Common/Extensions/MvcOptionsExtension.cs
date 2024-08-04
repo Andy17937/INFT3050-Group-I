@@ -9,18 +9,18 @@ using Gadgets.Common.Filters;
 namespace Gadgets.Common.Extensions
 {
     /// <summary>
-    /// 扩展了MVCoptions
+    /// Extended MVCoptions
     /// </summary>
     public static class MvcOptionsExtension
     {
         /// <summary>
-        /// 扩展方法
+        /// Extended Methods
         /// </summary>
         /// <param name="opts"></param>
-        /// <param name="routeAttribute">自定的前缀内容</param>
+        /// <param name="routeAttribute">Customized prefix content</param>
         public static void UseCentralRoutePrefix(this MvcOptions opts, IRouteTemplateProvider routeAttribute)
         {
-            // Add我们自定义 实现IApplicationModelConvention的RouteConvention
+            // Add our custom RouteConvention that implements IApplicationModelConvention.
             opts.Conventions.Insert(0, new RouteConventionFilter(routeAttribute));
         }
     }

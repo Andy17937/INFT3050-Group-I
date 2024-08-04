@@ -1,0 +1,72 @@
+﻿<Properties StartupConfiguration="{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Gadgets/Controllers/YuangongController.cs">
+    <Files>
+      <File FileName="Gadgets/Business/DB/DbContext.cs" Line="1" Column="1" />
+      <File FileName="Gadgets/Business/Services/AddressService.cs" Line="30" Column="28" />
+      <File FileName="Gadgets/Business/Services/CartService.cs" Line="1" Column="1" />
+      <File FileName="Gadgets/Business/Services/BaseService.cs" Line="1" Column="1" />
+      <File FileName="Gadgets/Business/Services/CommonService.cs" Line="1" Column="1" />
+      <File FileName="Gadgets/Business/Services/ConfigService.cs" Line="1" Column="1" />
+      <File FileName="Gadgets/Business/Services/DefaultuserService.cs" Line="1" Column="1" />
+      <File FileName="Gadgets/Business/Services/DiscussshangpinxinxiService.cs" Line="1" Column="1" />
+      <File FileName="Gadgets/Business/Services/HuiyuanService.cs" Line="1" Column="1" />
+      <File FileName="Gadgets/Business/Services/OrdersService.cs" Line="1" Column="1" />
+      <File FileName="Gadgets/Business/Services/ShangpinxinxiService.cs" Line="1" Column="1" />
+      <File FileName="Gadgets/Business/Services/StoreupService.cs" Line="1" Column="1" />
+      <File FileName="Gadgets/Business/Services/TuihuoguanliService.cs" Line="1" Column="1" />
+      <File FileName="Gadgets/Business/Services/UsersService.cs" Line="1" Column="1" />
+      <File FileName="Gadgets/Business/Services/YingyeetongjiService.cs" Line="1" Column="1" />
+      <File FileName="Gadgets/Business/Services/YuangongService.cs" Line="1" Column="1" />
+      <File FileName="Gadgets/Common/Extensions/MvcOptionsExtension.cs" Line="28" Column="1" />
+      <File FileName="Gadgets/Common/Filters/JwtAuthorizationFilter.cs" Line="1" Column="1" />
+      <File FileName="Gadgets/Common/Filters/RouteConventionFilter.cs" Line="1" Column="1" />
+      <File FileName="Gadgets/Common/Filters/SwaggerFileUploadFilter.cs" Line="1" Column="1" />
+      <File FileName="Gadgets/Common/Helpers/AppSettings.cs" Line="1" Column="1" />
+      <File FileName="Gadgets/Common/Helpers/BaiduAiHelper.cs" Line="1" Column="1" />
+      <File FileName="Gadgets/Common/Helpers/CacheHelper.cs" Line="1" Column="1" />
+      <File FileName="Gadgets/Common/Helpers/ConfigHelper.cs" Line="1" Column="1" />
+      <File FileName="Gadgets/Common/Helpers/FuncHelper.cs" Line="1" Column="1" />
+      <File FileName="Gadgets/Common/Helpers/JwtHelper.cs" Line="1" Column="1" />
+      <File FileName="Gadgets/Controllers/AddressController.cs" Line="1" Column="1" />
+      <File FileName="Gadgets/Controllers/CartController.cs" Line="1" Column="1" />
+      <File FileName="Gadgets/Controllers/CommonController.cs" Line="243" Column="10" />
+      <File FileName="Gadgets/Controllers/ConfigController.cs" Line="1" Column="1" />
+      <File FileName="Gadgets/Controllers/DefaultuserController.cs" Line="1" Column="1" />
+      <File FileName="Gadgets/Controllers/DiscussshangpinxinxiController.cs" Line="1" Column="1" />
+      <File FileName="Gadgets/Controllers/HuiyuanController.cs" Line="1" Column="1" />
+      <File FileName="Gadgets/Controllers/FileController.cs" Line="1" Column="1" />
+      <File FileName="Gadgets/Controllers/ShangpinxinxiController.cs" Line="1" Column="1" />
+      <File FileName="Gadgets/Controllers/TuihuoguanliController.cs" Line="1" Column="1" />
+      <File FileName="Gadgets/Controllers/YuangongController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Gadgets">
+            <Node name="Gadgets">
+              <Node name="Business" expanded="True">
+                <Node name="DB" expanded="True" />
+                <Node name="Services" expanded="True" />
+              </Node>
+              <Node name="Common">
+                <Node name="Filters" expanded="True" />
+                <Node name="Helpers" expanded="True" />
+              </Node>
+              <Node name="Controllers">
+                <Node name="YuangongController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Gadgets PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
