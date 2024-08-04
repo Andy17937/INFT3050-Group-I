@@ -22,14 +22,14 @@
         </div>
       </el-col>
                                     <el-col :span="12">
-        <el-form-item class="input" v-if="type!='info'"  label="表名" prop="tablename">
+        <el-form-item class="input" v-if="type!='info'"  label="table name" prop="tablename">
           <el-input v-model="ruleForm.tablename" 
-              placeholder="表名" clearable  :readonly="ro.tablename"></el-input>
+              placeholder="table name" clearable  :readonly="ro.tablename"></el-input>
         </el-form-item>
         <div v-else>
-          <el-form-item class="input" label="表名" prop="tablename">
+          <el-form-item class="input" label="table name" prop="tablename">
               <el-input v-model="ruleForm.tablename" 
-                placeholder="表名" readonly></el-input>
+                placeholder="table name" readonly></el-input>
           </el-form-item>
         </div>
       </el-col>

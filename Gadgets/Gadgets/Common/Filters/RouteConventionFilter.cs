@@ -16,37 +16,37 @@ namespace Gadgets.Common.Filters
             _centralPrefix = new AttributeRouteModel(routeTemplateProvider);
         }
 
-        //接口的Apply方法
+        //The Apply method of the interface
         public void Apply(ApplicationModel application)
         {
-            //遍历所有的 Controller
+            //Iterate over all Controllers
             foreach (var controller in application.Controllers)
             {
-                // 已经标记了 RouteAttribute 的 Controller
+                // Controllers that have been tagged with RouteAttribute
                 var matchedSelectors = controller.Selectors.Where(x => x.AttributeRouteModel != null).ToList();
                 if (matchedSelectors.Any())
                 {
                     foreach (var selectorModel in matchedSelectors)
                     {
-                        // 在 当前路由上 再 Add一个 路由前缀
+                        // Add another route prefix to the current route.
                         selectorModel.AttributeRouteModel = AttributeRouteModel.CombineAttributeRouteModel(_centralPrefix,
                             selectorModel.AttributeRouteModel);
 
-                        // 在 当前路由上 不再 Add任何路由前缀
+                        // Add no more route prefixes to the current route.
                         //selectorModel.AttributeRouteModel = selectorModel.AttributeRouteModel;
                     }
                 }
 
-                // 没有标记 RouteAttribute 的 Controller
+                // Controllers not tagged with RouteAttribute
                 var unmatchedSelectors = controller.Selectors.Where(x => x.AttributeRouteModel == null).ToList();
                 if (unmatchedSelectors.Any())
                 {
                     foreach (var selectorModel in unmatchedSelectors)
                     {
-                        // Add一个 路由前缀
+                        // Add a Routing Prefix
                         //selectorModel.AttributeRouteModel = _centralPrefix;
 
-                        // 不Add前缀(说明：不使用全局路由，重构action，实现自定义、特殊的action路由Address)
+                        // No Add prefix (note: do not use global routes, refactor actions, implement custom, special action route Address)
                         selectorModel.AttributeRouteModel = selectorModel.AttributeRouteModel;
                     }
                 }

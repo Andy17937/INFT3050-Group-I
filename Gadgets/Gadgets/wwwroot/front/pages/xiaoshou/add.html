@@ -112,7 +112,7 @@
 				</div>
 			  </div>
 			</div>
-			<!-- 轮播图 -->
+			<!-- rotating chart -->
 
 			<div class="data-add-container" :style='{"padding":"20px","boxShadow":"1px 1px 6px #e25111","margin":"30px auto","borderColor":"rgba(255,0,0,.3)","backgroundColor":"#fff","borderRadius":"10px","borderWidth":"0","borderStyle":"solid"}'>
 
@@ -200,7 +200,7 @@
 			var vue = new Vue({
 				el: '#app',
 				data: {
-					// 轮播图
+					// rotating chart
 					swiperList: [{
 						img: '../../img/banner.jpg'
 					}],
@@ -249,7 +249,7 @@
 				var laydate = layui.laydate;
                 var tinymce = layui.tinymce
 
-				// 获取轮播图 数据
+				// Getting rotating chart data
 				http.request('config/list', 'get', {
 					page: 1,
 					limit: 5
@@ -265,7 +265,7 @@
 							}
 						}
 						jquery('#swiper-item').html(swiperItemHtml);
-						// 轮播图
+						// rotating chart
 						vue.$nextTick(() => {
 						  carousel.render({
 						  	elem: '#swiper',
@@ -311,12 +311,12 @@
 							shade: [0.1, '#fff'] //0.1透明度的白色背景
 						});
 					},
-					// 上传成功
+					// Uploaded successfully
 					done: function(res) {
 						console.log(res);
 						layer.closeAll();
 						if (res.code == 0) {
-							layer.msg("上传成功", {
+							layer.msg("Uploaded successfully", {
 								time: 2000,
 								icon: 6
 							})
@@ -334,7 +334,7 @@
 					//请求异常回调
 					error: function() {
 						layer.closeAll();
-						layer.msg("请求接口异常", {
+						layer.msg("Request Interface Exception", {
 							time: 2000,
 							icon: 5
 						})
@@ -351,7 +351,7 @@
                                         }
 				});
 
-                // 跨表
+                // spanning table
                 if(http.getParam('corss')){
 					var obj = JSON.parse(localStorage.getItem('crossObj'));
 					for (var o in obj){
@@ -407,7 +407,7 @@
                         return false
                     }
                                                                                                                                                                                                                                                                                         
-					// 跨表计算
+					// spanning table计算
 					                                                                                                                                                                                                                                                                                        					
                     // 比较大小
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         					

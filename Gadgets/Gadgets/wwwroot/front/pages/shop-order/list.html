@@ -58,7 +58,7 @@
 	<body style="background: #EEEEEE;">
 
 		<div id="app">
-			<!-- 轮播图 -->
+			<!-- rotating chart -->
 			<div class="layui-carousel" id="swiper" :style='{"boxShadow":"","margin":"0px auto","borderColor":"rgba(0,0,0,.3)","borderRadius":"0px","borderWidth":"0","width":"100%","borderStyle":"solid"}'>
 			  <div carousel-item id="swiper-item">
 				<div v-for="(item,index) in swiperList" :key="index">
@@ -66,7 +66,7 @@
 				</div>
 			  </div>
 			</div>
-			<!-- 轮播图 -->
+			<!-- rotating chart -->
 			
 			<!-- 标题 -->
 			<div class="index-title" :style='{"padding":"10px","boxShadow":"0 0 20px #e0dedc","margin":"10px auto","borderColor":"rgba(0,0,0,.3)","backgroundColor":"rgba(255, 255, 255, 1)","color":"#333","borderRadius":"4px","borderWidth":"0","fontSize":"20px","borderStyle":"solid","height":"auto"}'>
@@ -134,7 +134,7 @@
                                                                                                 <i class="layui-icon">&#xe65e;</i> Cancel
                                                                                         </button>
 											<button v-if="item.status=='Paid'" @click="refund(item)" type="button" class="layui-btn layui-btn-sm layui-btn-radius layui-btn-warm">
-												<i class="layui-icon">&#xe65e;</i> 退款
+												<i class="layui-icon">&#xe65e;</i> Refund
 											</button>
 											<button v-if="item.status=='Shipped'" @click="confirm(item)" type="button" class="layui-btn layui-btn-sm layui-btn-radius layui-bg-green">
 												<i class="layui-icon">&#xe65e;</i> Confirm receipt of goods
@@ -167,7 +167,7 @@
 			var vue = new Vue({
 				el: '#app',
 				data: {
-					// 轮播图
+					// rotating chart
 					swiperList: [{
 						img: '../../img/banner.jpg'
 					}],
@@ -225,7 +225,7 @@
 								this.user = data.data;
 								// 判断BalanceYesNo充足
 								if (this.user.money < this.totalPrice) {
-									layui.layer.msg('Balance不足，请先充Value', {
+									layui.layer.msg('Insufficient balance, please top up first', {
 										time: 2000,
 										icon: 5
 									});
@@ -240,7 +240,7 @@
 								layui.http.requestJson(`${localStorage.getItem("userTable")}/update`, 'post', this.user, (res) => {
 									item.status = 'Paid'
 									layui.http.requestJson(`orders/update`, 'post', item, (res) => {
-										layui.layer.msg('Pay成功', {
+										layui.layer.msg('Payment Succeed', {
 											time: 2000,
 											icon: 6
 										}, function() {
@@ -251,7 +251,7 @@
 							});
 						});
 					},
-					// 退款
+					// Refund
 					refund(item) {
 						// 获取Item DetailsMessage
 						layui.http.request(`${item.tablename}/info/${item.goodid}`, 'get', {}, (res) => {
@@ -270,7 +270,7 @@
 								layui.http.requestJson(`${localStorage.getItem("userTable")}/update`, 'post', this.user, (res) => {
 									item.status = 'Refunded'
 									layui.http.requestJson(`orders/update`, 'post', item, (res) => {
-										layui.layer.msg('退款成功', {
+										layui.layer.msg('Refund Succeed', {
 											time: 2000,
 											icon: 6
 										}, function() {
@@ -295,7 +295,7 @@
 					cancel(item){ 
                                                 item.status = 'Cancelled' 
                                                 layui.http.requestJson(`orders/update`, 'post', item, (res) => { 
-                                                        layui.layer.msg('订单Cancel成功', { 
+                                                        layui.layer.msg('Order Canceled Succeed', { 
                                                                 time: 2000, 
                                                                 icon: 6 
                                                         }, function() { 
@@ -317,7 +317,7 @@
 
 				var limit = 10;
 
-				// 获取轮播图 数据
+				// Getting rotating chart data
 				http.request('config/list', 'get', {
 					page: 1,
 					limit: 5
@@ -333,7 +333,7 @@
 							}
 						}
 						jquery('#swiper-item').html(swiperItemHtml);
-						// 轮播图
+						// rotating chart
 						vue.$nextTick(() => {
 						  carousel.render({
 						  	elem: '#swiper',

@@ -13,7 +13,7 @@ namespace Gadgets.Models.DbModel
     public class UsersDbModel
     {
         /// <summary>
-        /// 主键id
+        /// Primary key id
         /// </summary>
         [SugarColumn(IsPrimaryKey = true, IsIdentity = true, ColumnName = "id")]
         public int Id { get; set; }

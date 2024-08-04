@@ -13,7 +13,7 @@ namespace Gadgets.Models.DbModel
 	public class StoreupDbModel
 	{           
 		/// <summary>
-		/// Desc: 主键Id
+		/// Desc: Primary key id
 		/// </summary>
 		[SugarColumn(IsPrimaryKey = true, ColumnName = "id")]
 		public long Id { get; set; }
@@ -31,7 +31,7 @@ namespace Gadgets.Models.DbModel
 		public long? Refid { get; set; } = 0;
 
 		/// <summary>
-		/// Desc: 表名
+		/// Desc: table name
 		/// </summary>
 		[SugarColumn(ColumnName = "tablename")]
 		public string Tablename { get; set; } = "";

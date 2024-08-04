@@ -5,14 +5,10 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<title>Register</title>
-		<!-- bootstrap样式，地图插件使用 -->
 		<link rel="stylesheet" href="../../css/bootstrap.min.css" />
 		<link rel="stylesheet" href="../../layui/css/layui.css">
-		<!-- 样式 -->
 		<link rel="stylesheet" href="../../css/style.css" />
-		<!-- 主题（主要颜色设置） -->
 		<link rel="stylesheet" href="../../css/theme.css" />
-		<!-- 通用的css -->
 		<link rel="stylesheet" href="../../css/common.css" />
 	</head>
 	<style>
@@ -112,7 +108,7 @@
 				</div>
 			  </div>
 			</div>
-			<!-- 轮播图 -->
+			<!-- rotating chart -->
 
 			<div class="data-add-container" :style='{"padding":"20px","boxShadow":"1px 1px 6px #e25111","margin":"30px auto","borderColor":"rgba(255,0,0,.3)","backgroundColor":"#fff","borderRadius":"10px","borderWidth":"0","borderStyle":"solid"}'>
 
@@ -195,15 +191,10 @@
 
 		<script src="../../layui/layui.js"></script>
 		<script src="../../js/vue.js"></script>
-		<!-- 组件配置Message -->
 		<script src="../../js/config.js"></script>
-		<!-- 扩展插件配置Message -->
 		<script src="../../modules/config.js"></script>
-		<!-- 工具方法 -->
 		<script src="../../js/utils.js"></script>
-		<!-- 校验格式工具类 -->
 		<script src="../../js/validate.js"></script>
-		<!-- 地图 -->
 		<script type="text/javascript" src="../../js/jquery.js"></script>
 		<script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=ca04cee7ac952691aa67a131e6f0cee0"></script>
 		<script type="text/javascript" src="../../js/bootstrap.min.js"></script>
@@ -215,7 +206,7 @@
 			var vue = new Vue({
 				el: '#app',
 				data: {
-					// 轮播图
+					// rotating chart
 					swiperList: [{
 						img: '../../img/banner.jpg'
 					}],
@@ -269,7 +260,7 @@
 				var laydate = layui.laydate;
                 var tinymce = layui.tinymce
 
-				// 获取轮播图 数据
+				// Getting rotating chart data
 				http.request('config/list', 'get', {
 					page: 1,
 					limit: 5
@@ -285,7 +276,7 @@
 							}
 						}
 						jquery('#swiper-item').html(swiperItemHtml);
-						// 轮播图
+						// rotating chart
 						vue.$nextTick(() => {
 						  carousel.render({
 						  	elem: '#swiper',
@@ -329,12 +320,12 @@
 							shade: [0.1, '#fff'] //0.1透明度的白色背景
 						});
 					},
-					// 上传成功
+					// Uploaded successfully
 					done: function(res) {
 						console.log(res);
 						layer.closeAll();
 						if (res.code == 0) {
-							layer.msg("上传成功", {
+							layer.msg("Uploaded successfully", {
 								time: 2000,
 								icon: 6
 							})
@@ -352,7 +343,7 @@
 					//请求异常回调
 					error: function() {
 						layer.closeAll();
-						layer.msg("请求接口异常", {
+						layer.msg("Request Interface Exception", {
 							time: 2000,
 							icon: 5
 						})
@@ -360,7 +351,7 @@
 				});
 																												
 
-                // 跨表
+                // spanning table
                 if(http.getParam('corss')){
 					var obj = JSON.parse(localStorage.getItem('crossObj'));
 					for (var o in obj){
@@ -461,7 +452,7 @@
                         return false
                     }
                                                                                                                         
-					// 跨表计算
+					// spanning table计算
 					                                                                                                                                                                                                                                                                                                                                                                        					
                     // 比较大小
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 					

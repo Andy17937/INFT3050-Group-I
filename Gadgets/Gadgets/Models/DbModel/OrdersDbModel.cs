@@ -13,7 +13,7 @@ namespace Gadgets.Models.DbModel
 	public class OrdersDbModel
 	{           
 		/// <summary>
-		/// Desc: 主键Id
+		/// Desc: Primary key id
 		/// </summary>
 		[SugarColumn(IsPrimaryKey = true, ColumnName = "id")]
 		public long Id { get; set; }
@@ -25,7 +25,7 @@ namespace Gadgets.Models.DbModel
 		public string Orderid { get; set; } = "";
 
 		/// <summary>
-		/// Desc: Item表名
+		/// Desc: Itemtable name
 		/// </summary>
 		[SugarColumn(ColumnName = "tablename")]
 		public string Tablename { get; set; } = "";

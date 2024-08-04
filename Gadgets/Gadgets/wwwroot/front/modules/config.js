@@ -8,7 +8,7 @@ layui.config({
     base: rootPath,
     version: true
 }).extend({
-    http: 'http/http', 			//  网络请求接口扩展
-	layarea: 'layarea/layarea' ,// 省市区联动Option器
-	tinymce: 'tinymce/tinymce' 	// 富文本编辑器
+    http: 'http/http', 			//  Web Request Interface Extension
+    layarea: 'layarea/layarea',// Provincial and municipal city linkage Optioner
+    tinymce: 'tinymce/tinymce' 	// rich text editor
 });

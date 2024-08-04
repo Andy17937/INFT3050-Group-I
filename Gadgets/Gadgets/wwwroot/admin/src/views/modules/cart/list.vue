@@ -75,7 +75,7 @@
             	                                    <el-table-column  :sortable="contents.tableSortable" :align="contents.tableAlign"
                     prop="tablename"
                     header-align="center"
-		    label="Item表名">
+		    label="Itemtable name">
 		     <template slot-scope="scope">
                        {{scope.row.tablename}}
                      </template>

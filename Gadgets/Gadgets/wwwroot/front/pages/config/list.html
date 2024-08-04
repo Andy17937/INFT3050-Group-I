@@ -270,7 +270,7 @@ width: 100%;
 			  <i v-if="true" class="layui-icon">&#xe654;</i>Add
 			</button>
 		</form>
-	    <!-- 样式一 -->
+
 	    <div class="list" style="position: relative;">
 	      <div @click="jump('../config/detail.html?id='+item.id)" v-for="(item,index) in dataList" :key="index" class="list-item" :class="4=='3'?'list-item3':4=='5'?'list-item5':''">
 	        <div class="list-item-body animation-box" :style='{"padding":"0px 0 10px 0","boxShadow":"0 0 6px #e25111","margin":"10px 4px 10px 4px","borderColor":"rgba(0,0,0,.3)","backgroundColor":"rgba(255, 255, 255, 1)","borderRadius":"4px","borderWidth":"0","borderStyle":"solid"}'>
@@ -369,10 +369,10 @@ width: 100%;
       });
 
 
-      // 分PageList
+      // SubPageList
       pageList();
 
-      // Search按钮
+      // Search button
       jquery('#btn-search').click(function(e) {
         pageList();
       });
@@ -390,10 +390,10 @@ width: 100%;
 
 
 
-        // 获取List数据
+        // Get List Data
         http.request('config/list', 'get', param, function(res) {
           vue.dataList = res.data.list
-          // 分Page
+          // Sub-Page
           laypage.render({
             elem: 'pager',
             count: res.data.total,
@@ -403,7 +403,7 @@ width: 100%;
             theme: '#FF7800',
             jump: function(obj, first) {
             	param.page = obj.curr;
-              //首次不执行
+              //Not implemented for the first time
               if (!first) {
                 http.request('config/list', 'get', param, function(res) {
                   vue.dataList = res.data.list

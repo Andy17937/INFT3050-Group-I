@@ -170,7 +170,7 @@
 	<body>
 
 		<div id="app">
-			<!-- 轮播图 -->
+			<!-- rotating chart -->
 			<!-- <div class="layui-carousel" id="swiper">
 				<div carousel-item id="swiper-item">
 					<div v-for="(item,index) in swiperList" v-bind:key="index">
@@ -185,7 +185,7 @@
 				</div>
 			  </div>
 			</div>
-			<!-- 轮播图 -->
+			<!-- rotating chart -->
 
 			<!-- 标题 -->
 			<!-- <h2 style="margin-top: 20px;" class="index-title">USER / CENTER</h2>
@@ -294,7 +294,7 @@
 			var vue = new Vue({
 				el: '#app',
 				data: {
-					// 轮播图
+					// rotating chart
 					swiperList: [],
 																																																																																centerMenu: centerMenu
 				},
@@ -327,7 +327,7 @@
 				var form = layui.form;
 				var upload = layui.upload;
 
-      // 获取轮播图 数据
+      // Getting rotating chart data
       http.request('config/list', 'get', {
         page: 1,
         limit: 5
@@ -369,7 +369,7 @@
 					});
 				});
 
-				// 获取轮播图 数据
+				// Getting rotating chart data
 				http.request('config/list', 'get', {
 					page: 1,
 					limit: 5
@@ -385,7 +385,7 @@
 							}
 						}
 						jquery('#swiper-item').html(swiperItemHtml);
-						// 轮播图
+						// rotating chart
 						vue.$nextTick(() => {
 						  carousel.render({
 						  	elem: '#swiper',

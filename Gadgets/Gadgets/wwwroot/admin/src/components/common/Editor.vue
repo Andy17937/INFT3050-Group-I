@@ -135,7 +135,7 @@ export default {
       // res为图片服务器返回的数据
       // 获取富文本组件实例
       let quill = this.$refs.myQuillEditor.quill;
-      // 如果上传成功
+      // 如果Uploaded successfully
       if (res.code === 0) {
         // 获取光标所在位置
         let length = quill.getSelection().index;

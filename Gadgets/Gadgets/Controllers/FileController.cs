@@ -82,7 +82,7 @@ namespace Gadgets.Controllers
                     _configBLL.UpdateByName("faceFile", newFileName);
                 }
 
-                return Json(new { Code = 0, Msg = "上传成功！", File = newFileName });
+                return Json(new { Code = 0, Msg = "Uploaded successfully！", File = newFileName });
             }
             catch (Exception ex)
             {

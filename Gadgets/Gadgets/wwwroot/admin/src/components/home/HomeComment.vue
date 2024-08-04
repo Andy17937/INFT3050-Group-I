@@ -1,6 +1,6 @@
 <template>
   <div class="home-comment">
-    <div class="title">用户留言</div>
+    <div class="title">User Message</div>
     <div class="comment-list">
       <div v-for="(item,index) in list"  v-bind:key="index" class="comment-item">
         <div class="user-content">
@@ -26,27 +26,27 @@ export default {
           avator:
             "https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg",
           content:
-            "你以为只要长得漂亮就有男生喜欢？你以为只要有了钱漂亮妹子就自己贴上来了？你以为学霸就能找到好工作？我告诉你吧，这些都Yes真的！",
+            "1",
           createTime: "5月02日 00:00"
         },
         {
           name: "MaskLin",
           avator:
             "https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg",
-          content: "作者太帅了",
+          content: "1",
           createTime: "5月04日 00:00"
         },
         {
           name: "MaskLin",
           avator:
             "https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg",
-          content: "作者太帅了",
+          content: "1",
           createTime: "5月04日 00:00"
         },
         {
           name: "MaskLin",
           avator: "https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg",
-          content: "作者太帅了",
+          content: "1",
           createTime: "5月04日 00:00"
         }
       ]

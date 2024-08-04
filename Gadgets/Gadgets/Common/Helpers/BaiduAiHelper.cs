@@ -20,7 +20,7 @@ namespace Gadgets.Common.Helpers
         public static String clientSecret = "";
 
         /// <summary>
-        /// 获取access_token
+        /// get access_token
         /// </summary>
         public static void GetAccessToken()
         {
@@ -39,9 +39,9 @@ namespace Gadgets.Common.Helpers
         }
 
         /// <summary>
-        /// 人脸对比
+        /// face-to-face comparison
         /// </summary>
-        /// <param name="imageInfo">对比的图片相关Message</param>
+        /// <param name="imageInfo">Contrasting images related to Message</param>
         /// <returns></returns>
         public static string FaceMatch(string imageInfo)
         {

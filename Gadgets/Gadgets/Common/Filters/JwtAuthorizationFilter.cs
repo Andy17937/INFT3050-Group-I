@@ -10,14 +10,14 @@ using Gadgets.Models;
 namespace Gadgets.Common.Filters
 {
     /// <summary>
-    /// 授权中间件
+    /// license middleware
     /// </summary>
     public class JwtAuthorizationFilter
     {
         private readonly RequestDelegate _next;
 
         /// <summary>
-        /// 构造函数
+        /// constructor
         /// </summary>
         /// <param name="next"></param>
         public JwtAuthorizationFilter(RequestDelegate next)
@@ -32,7 +32,7 @@ namespace Gadgets.Common.Filters
         /// <returns></returns>
         public Task Invoke(HttpContext httpContext)
         {
-            //检测YesNo包含'Authorization'请求头，如果不包含则直接放行
+            //Detects if the 'Authorization' request header is included, if not then it is released directly
             //if (!httpContext.Request.Headers.ContainsKey("Authorization"))
             if (!httpContext.Request.Headers.ContainsKey("Token"))
             {
@@ -49,7 +49,7 @@ namespace Gadgets.Common.Filters
 
                 CacheHelper.TokenModel = tm;
 
-                //授权
+                //authorizations
                 var claimList = new List<Claim>();
                 var claim = new Claim(ClaimTypes.Role, tm.Role);
                 claimList.Add(claim);

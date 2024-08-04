@@ -24,7 +24,7 @@ namespace Gadgets.Controllers
         private readonly ShangpinxinxiService _bll;
 
         /// <summary>
-        /// 构造函数
+        /// constructor
         /// </summary>
         public ShangpinxinxiController()
         {
@@ -47,7 +47,7 @@ namespace Gadgets.Controllers
 
 
         /// <summary>
-        /// 分Page接口
+        /// sub-Page interface
         /// </summary>
         /// <param name="page">当前Page</param>
         /// <param name="limit">每Page记录的长度</param>
@@ -82,7 +82,7 @@ namespace Gadgets.Controllers
         }
 
         /// <summary>
-        /// 分Page接口
+        /// sub-Page interface
         /// </summary>
         /// <param name="page">当前Page</param>
         /// <param name="limit">每Page记录的长度</param>
@@ -168,7 +168,7 @@ namespace Gadgets.Controllers
         /// <summary>
         /// 更新接口
         /// </summary>
-        /// <param name="entity">更新实体对象</param>
+        /// <param name="entity">Updating Entity Objects</param>
         /// <returns></returns>
         [HttpPost]
         [Authorize(Roles = "Admin,Client")]
@@ -195,7 +195,7 @@ namespace Gadgets.Controllers
         }
 
         /// <summary>
-        /// Delete接口
+        /// Delete interface
         /// </summary>
         /// <param name="ids">主键int[]</param>
         /// <returns></returns>
@@ -219,9 +219,9 @@ namespace Gadgets.Controllers
         }
 
         /// <summary>
-        /// 详情接口
+        /// Detailed Interface
         /// </summary>
-        /// <param name="id">主键id</param>
+        /// <param name="id">Primary key id</param>
         /// <returns></returns>
         [HttpPost("{id}")]
         [HttpGet("{id}")]
@@ -241,9 +241,9 @@ namespace Gadgets.Controllers
         }
 
         /// <summary>
-        /// 详情接口
+        /// Detailed Interface
         /// </summary>
-        /// <param name="id">主键id</param>
+        /// <param name="id">Primary key id</param>
         /// <returns></returns>
         [HttpPost("{id}")]
         [HttpGet("{id}")]
@@ -264,7 +264,7 @@ namespace Gadgets.Controllers
         /// <summary>
         /// 赞、踩接口
         /// </summary>
-        /// <param name="id">主键id</param>
+        /// <param name="id">Primary key id</param>
         /// <param name="type">type=1 赞；type=2 踩</param>
         /// <returns></returns>
         [HttpGet("{id}")]
@@ -289,7 +289,7 @@ namespace Gadgets.Controllers
 		/// <summary>
         /// 获取需要提醒的记录数接口
         /// </summary>
-        /// <param name="columnName">列名</param>
+        /// <param name="columnName">listings</param>
         /// <param name="type">类型（1表示数字比较提醒，2表示日期比较提醒）</param>
         /// <param name="remindStart">remindStart小于等于columnName满足Result件提醒,当比较日期时，该Value表示天数</param>
         /// <param name="remindEnd">columnName小于等于remindEnd 满足Result件提醒,当比较日期时，该Value表示天数</param>

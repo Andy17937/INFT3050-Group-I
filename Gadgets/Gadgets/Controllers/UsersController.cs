@@ -20,7 +20,7 @@ namespace Gadgets.Controllers
         private readonly UsersService _bll;
 
         /// <summary>
-        /// 构造函数
+        /// constructor
         /// </summary>
         public UsersController()
         {
@@ -113,7 +113,7 @@ namespace Gadgets.Controllers
 
                     return Json(new { Code = 0, Data = _bll.BaseGetById(tm.Uid) });
                 }
-                else return Json(new { Code = 500, Msg = "没有TokenMessage" });
+                else return Json(new { Code = 500, Msg = "TokenMessage Not Found" });
             }
             catch (Exception ex)
             {
@@ -122,7 +122,7 @@ namespace Gadgets.Controllers
         }
 
         /// <summary>
-        /// 分Page接口
+        /// sub-Page interface
         /// </summary>
         /// <param name="page">当前Page</param>
         /// <param name="limit">每Page记录的长度</param>
@@ -168,9 +168,9 @@ namespace Gadgets.Controllers
         }
 
         /// <summary>
-        /// 更新接口
+        /// Updating the interface
         /// </summary>
-        /// <param name="entity">更新实体对象</param>
+        /// <param name="entity">Updating Entity Objects</param>
         /// <returns></returns>
         [HttpPost]
         [Authorize(Roles = "Admin")]
@@ -193,9 +193,9 @@ namespace Gadgets.Controllers
         }
 
         /// <summary>
-        /// Delete接口
+        /// Delete interface
         /// </summary>
-        /// <param name="ids">主键int[]</param>
+        /// <param name="ids">Primary key int[]</param>
         /// <returns></returns>
         [HttpPost]
         [Authorize(Roles = "Admin")]
@@ -217,9 +217,9 @@ namespace Gadgets.Controllers
         }
 
         /// <summary>
-        /// 详情接口
+        /// Detailed Interface
         /// </summary>
-        /// <param name="id">主键id</param>
+        /// <param name="id">Primary key id</param>
         /// <returns></returns>
         [HttpGet("{id}")]
         [Authorize(Roles = "Admin")]

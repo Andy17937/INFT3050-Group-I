@@ -13,7 +13,7 @@ namespace Gadgets.Models.DbModel
 	public class DiscussshangpinxinxiDbModel
 	{           
 		/// <summary>
-		/// Desc: 主键Id
+		/// Desc: Primary key id
 		/// </summary>
 		[SugarColumn(IsPrimaryKey = true, ColumnName = "id")]
 		public long Id { get; set; }

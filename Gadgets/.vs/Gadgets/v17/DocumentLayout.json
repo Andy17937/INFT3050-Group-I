@@ -3,6 +3,186 @@
   "WorkspaceRootPath": "D:\\Github\\INFT3050-Group-I\\Gadgets\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\controllers\\commoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\controllers\\commoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\controllers\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\controllers\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\common\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\common\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\common\\helpers\\funchelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\common\\helpers\\funchelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\common\\helpers\\baiduaihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\common\\helpers\\baiduaihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\common\\helpers\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\common\\helpers\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\common\\filters\\routeconventionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\common\\filters\\routeconventionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\common\\filters\\jwtauthorizationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\common\\filters\\jwtauthorizationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\business\\db\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\business\\db\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\front\\pages\\yuangong\\list.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\front\\pages\\yuangong\\list.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\front\\pages\\yuangong\\register.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\front\\pages\\yuangong\\register.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\admin\\src\\components\\home\\homecomment.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\admin\\src\\components\\home\\homecomment.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\front\\pages\\yingyeetongji\\add.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\front\\pages\\yingyeetongji\\add.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\front\\pages\\kaoqin\\add.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\front\\pages\\kaoqin\\add.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\front\\pages\\defaultuser\\add.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\front\\pages\\defaultuser\\add.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\front\\pages\\config\\list.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\front\\pages\\config\\list.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\front\\pages\\config\\detail.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\front\\pages\\config\\detail.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\front\\pages\\config\\add.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\front\\pages\\config\\add.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\front\\modules\\config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\front\\modules\\config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\tinymce.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\tinymce.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\front\\modules\\tinymce\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\front\\modules\\tinymce\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\license.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\license.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\jquery.tinymce.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\jquery.tinymce.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\skins\\ui\\oxide\\skin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\skins\\ui\\oxide\\skin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\skins\\ui\\oxide\\content.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\skins\\ui\\oxide\\content.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\skins\\content\\default\\content.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\skins\\content\\default\\content.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\skins\\content\\dark\\content.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\skins\\content\\dark\\content.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\front\\modules\\layarea\\layarea.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\front\\modules\\layarea\\layarea.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\langs\\zh_cn.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\langs\\zh_cn.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\langs\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\langs\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\front\\modules\\http\\http.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\front\\modules\\http\\http.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\front\\js\\vue.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\front\\js\\vue.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\front\\js\\validate.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\front\\js\\validate.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\front\\js\\utils.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\front\\js\\utils.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\front\\js\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\front\\js\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\front\\js\\bootstrap.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\front\\js\\bootstrap.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\front\\js\\config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\front\\js\\config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\front\\elementui\\elementui.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\front\\elementui\\elementui.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\front\\elementui\\elementui.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\front\\elementui\\elementui.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\front\\css\\theme.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\front\\css\\theme.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\front\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\front\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|d:\\github\\inft3050-group-i\\gadgets\\gadgets\\wwwroot\\admin\\dist\\js\\app.dcf56c23.js.map||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{C8B2A7EF-B5D9-4265-A5CE-A7F90F992275}|Gadgets\\Gadgets.csproj|solutionrelative:gadgets\\wwwroot\\admin\\dist\\js\\app.dcf56c23.js.map||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
@@ -23,19 +203,604 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CommonController.cs",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\Controllers\\CommonController.cs",
+              "RelativeDocumentMoniker": "Gadgets\\Controllers\\CommonController.cs",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\Controllers\\CommonController.cs",
+              "RelativeToolTip": "Gadgets\\Controllers\\CommonController.cs",
+              "ViewState": "AQIAAE4AAADAm5mZmRktwEEAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T08:03:27.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Gadgets\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Gadgets\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T08:02:48.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddressController.cs",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\Controllers\\AddressController.cs",
+              "RelativeDocumentMoniker": "Gadgets\\Controllers\\AddressController.cs",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\Controllers\\AddressController.cs",
+              "RelativeToolTip": "Gadgets\\Controllers\\AddressController.cs",
+              "ViewState": "AQIAAP8AAAAAAAAAAAAkwAkBAACtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T07:58:09.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JwtHelper.cs",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\Common\\Helpers\\JwtHelper.cs",
+              "RelativeDocumentMoniker": "Gadgets\\Common\\Helpers\\JwtHelper.cs",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\Common\\Helpers\\JwtHelper.cs",
+              "RelativeToolTip": "Gadgets\\Common\\Helpers\\JwtHelper.cs",
+              "ViewState": "AQIAAM4AAAAAAAAAAAAswOsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T07:55:58.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FuncHelper.cs",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\Common\\Helpers\\FuncHelper.cs",
+              "RelativeDocumentMoniker": "Gadgets\\Common\\Helpers\\FuncHelper.cs",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\Common\\Helpers\\FuncHelper.cs",
+              "RelativeToolTip": "Gadgets\\Common\\Helpers\\FuncHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T07:55:38.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaiduAiHelper.cs",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\Common\\Helpers\\BaiduAiHelper.cs",
+              "RelativeDocumentMoniker": "Gadgets\\Common\\Helpers\\BaiduAiHelper.cs",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\Common\\Helpers\\BaiduAiHelper.cs",
+              "RelativeToolTip": "Gadgets\\Common\\Helpers\\BaiduAiHelper.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAwwHcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T07:55:06.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\Common\\Helpers\\AppSettings.cs",
+              "RelativeDocumentMoniker": "Gadgets\\Common\\Helpers\\AppSettings.cs",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\Common\\Helpers\\AppSettings.cs",
+              "RelativeToolTip": "Gadgets\\Common\\Helpers\\AppSettings.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAmwGIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T07:54:10.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RouteConventionFilter.cs",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\Common\\Filters\\RouteConventionFilter.cs",
+              "RelativeDocumentMoniker": "Gadgets\\Common\\Filters\\RouteConventionFilter.cs",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\Common\\Filters\\RouteConventionFilter.cs",
+              "RelativeToolTip": "Gadgets\\Common\\Filters\\RouteConventionFilter.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAowDAAAACLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T07:50:04.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "JwtAuthorizationFilter.cs",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\Common\\Filters\\JwtAuthorizationFilter.cs",
+              "RelativeDocumentMoniker": "Gadgets\\Common\\Filters\\JwtAuthorizationFilter.cs",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\Common\\Filters\\JwtAuthorizationFilter.cs",
+              "RelativeToolTip": "Gadgets\\Common\\Filters\\JwtAuthorizationFilter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T07:49:15.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\Business\\DB\\DbContext.cs",
+              "RelativeDocumentMoniker": "Gadgets\\Business\\DB\\DbContext.cs",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\Business\\DB\\DbContext.cs",
+              "RelativeToolTip": "Gadgets\\Business\\DB\\DbContext.cs",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T07:48:32.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "list.html",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\pages\\yuangong\\list.html",
+              "RelativeDocumentMoniker": "Gadgets\\wwwroot\\front\\pages\\yuangong\\list.html",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\pages\\yuangong\\list.html",
+              "RelativeToolTip": "Gadgets\\wwwroot\\front\\pages\\yuangong\\list.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-04T07:47:57.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "register.html",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\pages\\yuangong\\register.html",
+              "RelativeDocumentMoniker": "Gadgets\\wwwroot\\front\\pages\\yuangong\\register.html",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\pages\\yuangong\\register.html",
+              "RelativeToolTip": "Gadgets\\wwwroot\\front\\pages\\yuangong\\register.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-04T07:47:56.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\Startup.cs",
+              "RelativeDocumentMoniker": "Gadgets\\Startup.cs",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\Startup.cs",
+              "RelativeToolTip": "Gadgets\\Startup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T07:40:16.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeComment.vue",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\admin\\src\\components\\home\\HomeComment.vue",
+              "RelativeDocumentMoniker": "Gadgets\\wwwroot\\admin\\src\\components\\home\\HomeComment.vue",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\admin\\src\\components\\home\\HomeComment.vue",
+              "RelativeToolTip": "Gadgets\\wwwroot\\admin\\src\\components\\home\\HomeComment.vue",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2024-08-04T07:39:14.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "add.html",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\pages\\yingyeetongji\\add.html",
+              "RelativeDocumentMoniker": "Gadgets\\wwwroot\\front\\pages\\yingyeetongji\\add.html",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\pages\\yingyeetongji\\add.html",
+              "RelativeToolTip": "Gadgets\\wwwroot\\front\\pages\\yingyeetongji\\add.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-04T07:38:10.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "add.html",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\pages\\kaoqin\\add.html",
+              "RelativeDocumentMoniker": "Gadgets\\wwwroot\\front\\pages\\kaoqin\\add.html",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\pages\\kaoqin\\add.html",
+              "RelativeToolTip": "Gadgets\\wwwroot\\front\\pages\\kaoqin\\add.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-04T07:36:04.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "add.html",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\pages\\defaultuser\\add.html",
+              "RelativeDocumentMoniker": "Gadgets\\wwwroot\\front\\pages\\defaultuser\\add.html",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\pages\\defaultuser\\add.html",
+              "RelativeToolTip": "Gadgets\\wwwroot\\front\\pages\\defaultuser\\add.html",
+              "ViewState": "AQIAAFABAAAAAAAAAAAAAF8BAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-04T07:33:18.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "list.html",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\pages\\config\\list.html",
+              "RelativeDocumentMoniker": "Gadgets\\wwwroot\\front\\pages\\config\\list.html",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\pages\\config\\list.html",
+              "RelativeToolTip": "Gadgets\\wwwroot\\front\\pages\\config\\list.html",
+              "ViewState": "AQIAAJQBAAAAAAAAAAAAAKoBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-04T07:32:24.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "detail.html",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\pages\\config\\detail.html",
+              "RelativeDocumentMoniker": "Gadgets\\wwwroot\\front\\pages\\config\\detail.html",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\pages\\config\\detail.html",
+              "RelativeToolTip": "Gadgets\\wwwroot\\front\\pages\\config\\detail.html",
+              "ViewState": "AQIAAEoBAAAAAAAAAAAAAD8BAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-04T07:23:04.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "add.html",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\pages\\config\\add.html",
+              "RelativeDocumentMoniker": "Gadgets\\wwwroot\\front\\pages\\config\\add.html",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\pages\\config\\add.html",
+              "RelativeToolTip": "Gadgets\\wwwroot\\front\\pages\\config\\add.html",
+              "ViewState": "AQIAAEEBAAAAAAAAAAAAAEIBAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-04T07:21:17.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "config.js",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\modules\\config.js",
+              "RelativeDocumentMoniker": "Gadgets\\wwwroot\\front\\modules\\config.js",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\modules\\config.js",
+              "RelativeToolTip": "Gadgets\\wwwroot\\front\\modules\\config.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-04T07:20:56.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "tinymce.js",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce.js",
+              "RelativeDocumentMoniker": "Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce.js",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce.js",
+              "RelativeToolTip": "Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce.js",
+              "ViewState": "AQIAAHkAAAAAAAAAAAAcwMsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-04T07:16:48.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\modules\\tinymce\\index.html",
+              "RelativeDocumentMoniker": "Gadgets\\wwwroot\\front\\modules\\tinymce\\index.html",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\modules\\tinymce\\index.html",
+              "RelativeToolTip": "Gadgets\\wwwroot\\front\\modules\\tinymce\\index.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-04T07:16:47.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "tinymce.js",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\tinymce.js",
+              "RelativeDocumentMoniker": "Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\tinymce.js",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\tinymce.js",
+              "RelativeToolTip": "Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\tinymce.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-04T07:16:46.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "readme.md",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\readme.md",
+              "RelativeDocumentMoniker": "Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\readme.md",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\readme.md",
+              "RelativeToolTip": "Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\readme.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-08-04T07:16:45.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "license.txt",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\license.txt",
+              "RelativeDocumentMoniker": "Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\license.txt",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\license.txt",
+              "RelativeToolTip": "Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\license.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-08-04T07:16:44.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "jquery.tinymce.min.js",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\jquery.tinymce.min.js",
+              "RelativeDocumentMoniker": "Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\jquery.tinymce.min.js",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\jquery.tinymce.min.js",
+              "RelativeToolTip": "Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\jquery.tinymce.min.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-04T07:16:43.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "skin.css",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\skins\\ui\\oxide\\skin.css",
+              "RelativeDocumentMoniker": "Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\skins\\ui\\oxide\\skin.css",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\skins\\ui\\oxide\\skin.css",
+              "RelativeToolTip": "Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\skins\\ui\\oxide\\skin.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-04T07:16:35.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "content.css",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\skins\\ui\\oxide\\content.css",
+              "RelativeDocumentMoniker": "Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\skins\\ui\\oxide\\content.css",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\skins\\ui\\oxide\\content.css",
+              "RelativeToolTip": "Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\skins\\ui\\oxide\\content.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-04T07:16:34.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "content.css",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\skins\\content\\default\\content.css",
+              "RelativeDocumentMoniker": "Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\skins\\content\\default\\content.css",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\skins\\content\\default\\content.css",
+              "RelativeToolTip": "Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\skins\\content\\default\\content.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-04T07:16:31.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "content.css",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\skins\\content\\dark\\content.css",
+              "RelativeDocumentMoniker": "Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\skins\\content\\dark\\content.css",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\skins\\content\\dark\\content.css",
+              "RelativeToolTip": "Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\skins\\content\\dark\\content.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-04T07:16:30.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "zh_CN.js",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\langs\\zh_CN.js",
+              "RelativeDocumentMoniker": "Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\langs\\zh_CN.js",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\langs\\zh_CN.js",
+              "RelativeToolTip": "Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\langs\\zh_CN.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-04T07:16:21.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "readme.md",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\langs\\readme.md",
+              "RelativeDocumentMoniker": "Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\langs\\readme.md",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\langs\\readme.md",
+              "RelativeToolTip": "Gadgets\\wwwroot\\front\\modules\\tinymce\\tinymce\\langs\\readme.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-08-04T07:16:20.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "layarea.js",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\modules\\layarea\\layarea.js",
+              "RelativeDocumentMoniker": "Gadgets\\wwwroot\\front\\modules\\layarea\\layarea.js",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\modules\\layarea\\layarea.js",
+              "RelativeToolTip": "Gadgets\\wwwroot\\front\\modules\\layarea\\layarea.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-04T07:15:55.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "http.js",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\modules\\http\\http.js",
+              "RelativeDocumentMoniker": "Gadgets\\wwwroot\\front\\modules\\http\\http.js",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\modules\\http\\http.js",
+              "RelativeToolTip": "Gadgets\\wwwroot\\front\\modules\\http\\http.js",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAAAH8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-04T07:15:47.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "vue.js",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\js\\vue.js",
+              "RelativeDocumentMoniker": "Gadgets\\wwwroot\\front\\js\\vue.js",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\js\\vue.js",
+              "RelativeToolTip": "Gadgets\\wwwroot\\front\\js\\vue.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-04T07:15:42.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "validate.js",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\js\\validate.js",
+              "RelativeDocumentMoniker": "Gadgets\\wwwroot\\front\\js\\validate.js",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\js\\validate.js",
+              "RelativeToolTip": "Gadgets\\wwwroot\\front\\js\\validate.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-04T07:15:42.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "utils.js",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\js\\utils.js",
+              "RelativeDocumentMoniker": "Gadgets\\wwwroot\\front\\js\\utils.js",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\js\\utils.js",
+              "RelativeToolTip": "Gadgets\\wwwroot\\front\\js\\utils.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-04T07:15:41.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "jquery.js",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\js\\jquery.js",
+              "RelativeDocumentMoniker": "Gadgets\\wwwroot\\front\\js\\jquery.js",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\js\\jquery.js",
+              "RelativeToolTip": "Gadgets\\wwwroot\\front\\js\\jquery.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-04T07:15:39.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "bootstrap.min.js",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\js\\bootstrap.min.js",
+              "RelativeDocumentMoniker": "Gadgets\\wwwroot\\front\\js\\bootstrap.min.js",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\js\\bootstrap.min.js",
+              "RelativeToolTip": "Gadgets\\wwwroot\\front\\js\\bootstrap.min.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-04T07:15:40.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "config.js",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\js\\config.js",
+              "RelativeDocumentMoniker": "Gadgets\\wwwroot\\front\\js\\config.js",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\js\\config.js",
+              "RelativeToolTip": "Gadgets\\wwwroot\\front\\js\\config.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-04T07:15:36.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "elementui.js",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\elementui\\elementui.js",
+              "RelativeDocumentMoniker": "Gadgets\\wwwroot\\front\\elementui\\elementui.js",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\elementui\\elementui.js",
+              "RelativeToolTip": "Gadgets\\wwwroot\\front\\elementui\\elementui.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-04T07:15:28.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "elementui.css",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\elementui\\elementui.css",
+              "RelativeDocumentMoniker": "Gadgets\\wwwroot\\front\\elementui\\elementui.css",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\elementui\\elementui.css",
+              "RelativeToolTip": "Gadgets\\wwwroot\\front\\elementui\\elementui.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-04T07:15:27.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "style.css",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\css\\style.css",
+              "RelativeDocumentMoniker": "Gadgets\\wwwroot\\front\\css\\style.css",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\css\\style.css",
+              "RelativeToolTip": "Gadgets\\wwwroot\\front\\css\\style.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-04T07:15:10.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "theme.css",
+              "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\css\\theme.css",
+              "RelativeDocumentMoniker": "Gadgets\\wwwroot\\front\\css\\theme.css",
+              "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\css\\theme.css",
+              "RelativeToolTip": "Gadgets\\wwwroot\\front\\css\\theme.css",
+              "ViewState": "AQIAAPcAAAAAAAAAAAAAAPcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-04T07:15:09.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
               "Title": "app.dcf56c23.js.map",
               "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\admin\\dist\\js\\app.dcf56c23.js.map",
               "RelativeDocumentMoniker": "Gadgets\\wwwroot\\admin\\dist\\js\\app.dcf56c23.js.map",
               "ToolTip": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\admin\\dist\\js\\app.dcf56c23.js.map",
               "RelativeToolTip": "Gadgets\\wwwroot\\admin\\dist\\js\\app.dcf56c23.js.map",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA1RwAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-07-28T13:32:58.422Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 46,
               "Title": "login.html",
               "DocumentMoniker": "D:\\Github\\INFT3050-Group-I\\Gadgets\\Gadgets\\wwwroot\\front\\pages\\login\\login.html",
               "RelativeDocumentMoniker": "Gadgets\\wwwroot\\front\\pages\\login\\login.html",

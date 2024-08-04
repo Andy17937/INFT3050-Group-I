@@ -14,7 +14,7 @@ using Newtonsoft.Json.Linq;
 namespace Gadgets.Controllers
 {
     /// <summary>
-    /// Address相关接口
+    /// Address-related interfaces
     /// </summary>
     [Route("[controller]/[action]")]
     public class AddressController : Controller
@@ -24,7 +24,7 @@ namespace Gadgets.Controllers
         private readonly AddressService _bll;
 
         /// <summary>
-        /// 构造函数
+        /// constructor
         /// </summary>
         public AddressController()
         {
@@ -47,12 +47,12 @@ namespace Gadgets.Controllers
 
 
         /// <summary>
-        /// 分Page接口
+        /// sub-Page interface
         /// </summary>
-        /// <param name="page">当前Page</param>
-        /// <param name="limit">每Page记录的长度</param>
-        /// <param name="sort">排序字段</param>
-        /// <param name="order">升序（Defaultasc）</param>
+        /// <param name="page">Current Page</param>
+        /// <param name="limit">Length of each Page record</param>
+        /// <param name="sort">Sort Fields</param>
+        /// <param name="order">Ascending order (Defaultasc)</param>
         /// <returns></returns>
         [HttpGet]
         [Authorize(Roles = "Admin,Client")]
@@ -74,12 +74,12 @@ namespace Gadgets.Controllers
         }
 
         /// <summary>
-        /// 分Page接口
+        /// sub-Page interface
         /// </summary>
-        /// <param name="page">当前Page</param>
-        /// <param name="limit">每Page记录的长度</param>
-        /// <param name="sort">排序字段</param>
-        /// <param name="order">升序（Defaultasc）</param>
+        /// <param name="page">Current Page</param>
+        /// <param name="limit">Length of each Page record</param>
+        /// <param name="sort">Sort Fields</param>
+        /// <param name="order">Ascending order (Defaultasc)</param>
         /// <returns></returns>
         [HttpGet]
         public JsonResult List(int page = 1, int limit = 10, string sort = "id", string order = "asc")
@@ -96,9 +96,9 @@ namespace Gadgets.Controllers
         }
 
         /// <summary>
-        /// 保存接口
+        /// Preservation Interface
         /// </summary>
-        /// <param name="entity">实体对象</param>
+        /// <param name="entity">physical object</param>
         /// <returns></returns>
         [HttpPost]
         [Authorize(Roles = "Admin,Client")]
@@ -124,9 +124,9 @@ namespace Gadgets.Controllers
         }
 
         /// <summary>
-        /// 保存接口
+        /// Preservation Interface
         /// </summary>
-        /// <param name="entity">实体对象</param>
+        /// <param name="entity">physical object</param>
         /// <returns></returns>
         [HttpPost]
         public JsonResult Add([FromBody] AddressDbModel entity)
@@ -150,9 +150,9 @@ namespace Gadgets.Controllers
         }
 
         /// <summary>
-        /// 更新接口
+        /// Updating the interface
         /// </summary>
-        /// <param name="entity">更新实体对象</param>
+        /// <param name="entity">Updating Entity Objects</param>
         /// <returns></returns>
         [HttpPost]
         [Authorize(Roles = "Admin,Client")]
@@ -175,9 +175,9 @@ namespace Gadgets.Controllers
         }
 
         /// <summary>
-        /// Delete接口
+        /// Delete interface
         /// </summary>
-        /// <param name="ids">主键int[]</param>
+        /// <param name="ids">Primary key int[]</param>
         /// <returns></returns>
         [HttpPost]
         //[Authorize(Roles = "Admin,Client")]
@@ -199,9 +199,9 @@ namespace Gadgets.Controllers
         }
 
         /// <summary>
-        /// 详情接口
+        /// Detailed Interface
         /// </summary>
-        /// <param name="id">主键id</param>
+        /// <param name="id">Primary key id</param>
         /// <returns></returns>
         [HttpPost("{id}")]
         [HttpGet("{id}")]
@@ -219,9 +219,9 @@ namespace Gadgets.Controllers
         }
 
         /// <summary>
-        /// 详情接口
+        /// Detailed Interface
         /// </summary>
-        /// <param name="id">主键id</param>
+        /// <param name="id">Primary key id</param>
         /// <returns></returns>
         [HttpPost("{id}")]
         [HttpGet("{id}")]
@@ -240,7 +240,7 @@ namespace Gadgets.Controllers
         
 
         /// <summary>
-        /// 获取DefaultAddress
+        /// Get DefaultAddress
         /// </summary>
         /// <returns></returns>
         [HttpGet]
@@ -257,13 +257,13 @@ namespace Gadgets.Controllers
             }
         }
 
-		/// <summary>
-        /// 获取需要提醒的记录数接口
+        /// <summary>
+        /// Get Number of Records to Remind Interface
         /// </summary>
-        /// <param name="columnName">列名</param>
-        /// <param name="type">类型（1表示数字比较提醒，2表示日期比较提醒）</param>
-        /// <param name="remindStart">remindStart小于等于columnName满足Result件提醒,当比较日期时，该Value表示天数</param>
-        /// <param name="remindEnd">columnName小于等于remindEnd 满足Result件提醒,当比较日期时，该Value表示天数</param>
+        /// <param name="columnName">listings</param>
+        /// <param name="type">Type (1 for numeric comparison reminders, 2 for date comparison reminders)</param>
+        /// <param name="remindStart">remindStart is less than or equal to columnName to meet the Result pieces remind, when comparing the date, the Value represents the number of days</param>
+        /// <param name="remindEnd">columnName is less than or equal to remindEnd meet Result pieces remind, when comparing the date, the Value represents the number of days</param>
         /// <returns></returns>
         [HttpGet("{columnName}/{type}")]
         public JsonResult Remind(string columnName, int type, int remindStart, int remindEnd)

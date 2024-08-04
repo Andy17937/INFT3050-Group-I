@@ -13,7 +13,7 @@ namespace Gadgets.Models.DbModel
 	public class YuangongDbModel
 	{           
 		/// <summary>
-		/// Desc: 主键Id
+		/// Desc: Primary key id
 		/// </summary>
 		[SugarColumn(IsPrimaryKey = true, ColumnName = "id")]
 		public long Id { get; set; }

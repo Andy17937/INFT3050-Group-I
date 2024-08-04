@@ -8,25 +8,24 @@ layui.define(['jquery'],function (exports) {
 
     var modPath = modFile.substr(0, modFile.lastIndexOf('.'))
 
-    var setter = layui.setter || {}//兼容layuiadmin
+    var setter = layui.setter || {}
 
-    var response = setter.response || {}//兼容layuiadmin
+    var response = setter.response || {}
 
-    //  ----------------  以上代码无需Modify  ----------------
 
     var settings = {
         base_url: modPath
-        , images_upload_url: '/rest/upload'//图片上传接口，可在option传入，也可在这里Modify，option的Value优先
-        , language: 'zh_CN'//语言，可在option传入，也可在这里Modify，option的Value优先
-        , response: {//后台返回数据格式设置
-            statusName: response.statusName || 'code'//返回Status字段
-            , msgName: response.msgName || 'msg'//返回消息字段
-            , dataName: response.dataName || 'data'//返回的数据
+        , images_upload_url: '/rest/upload'//Image upload interface, can be passed in option, or Modify here, option's Value takes precedence
+        , language: 'zh_CN'//language, which can be passed in at option or Modified here, with option's Value taking precedence
+        , response: {//Backend return data format setting
+            statusName: response.statusName || 'code'//Returns the Status field
+            , msgName: response.msgName || 'msg'//Return message field
+            , dataName: response.dataName || 'data'//Returned data
             , statusCode: response.statusCode || {
-                ok: 0//数据正常
+                ok: 0//Data normal
             }
         }
-        , success: function (res, succFun, failFun) {//图片上传完成回调 根据自己需要Modify
+        , success: function (res, succFun, failFun) {//Image upload completion callback
             if (res[this.response.statusName] == this.response.statusCode.ok) {
                 succFun(res[this.response.dataName]);
             } else {
@@ -35,11 +34,10 @@ layui.define(['jquery'],function (exports) {
         }
     };
 
-    //  ----------------  以下代码无需Modify  ----------------
 
     var t = {};
 
-    //初始化
+    //initialization
     t.render = function (option,callback) {
 
         var admin = layui.admin || {}
@@ -97,7 +95,7 @@ layui.define(['jquery'],function (exports) {
                 },
                 error: function (res) {
 
-                    failFun("网络错误：" + res.status);
+                    failFun("Network Error：" + res.status);
 
                 }
             };
@@ -114,17 +112,17 @@ layui.define(['jquery'],function (exports) {
         }
 
         option.menu = option.menu ? option.menu : {
-            file: {title: '文件', items: 'newdocument | print preview fullscreen | wordcount'},
-            edit: {title: '编辑', items: 'undo redo | cut copy paste pastetext selectall | searchreplace'},
+            file: {title: 'File', items: 'newdocument | print preview fullscreen | wordcount'},
+            edit: {title: 'Edit', items: 'undo redo | cut copy paste pastetext selectall | searchreplace'},
             format: {
-                title: '格式',
+                title: 'Format',
                 items: 'bold italic underline strikethrough superscript subscript | formats | forecolor backcolor | removeformat'
             },
-            table: {title: '表格', items: 'inserttable tableprops deletetable | cell row column'},
+            table: {title: 'Table', items: 'inserttable tableprops deletetable | cell row column'},
         };
         if(typeof tinymce == 'undefined'){
 
-            $.ajax({//获取插件
+            $.ajax({//Get Plugins
                 url: option.base_url + '/tinymce.js',
 
                 dataType: 'script',
@@ -157,7 +155,7 @@ layui.define(['jquery'],function (exports) {
 
     t.init = t.render
 
-    // 获取ID对应的编辑器对象
+    // Get the editor object corresponding to the ID
     t.get = (elem) => {
 
         if(elem && /^#|\./.test(elem)){
@@ -168,7 +166,7 @@ layui.define(['jquery'],function (exports) {
 
             if(!edit){
 
-                return console.error("编辑器未加载")
+                return console.error("Editor not loaded")
 
             }
 
@@ -176,12 +174,12 @@ layui.define(['jquery'],function (exports) {
 
         } else {
 
-            return console.error("elem错误")
+            return console.error("Elem error")
 
         }
     }
 
-    //重载
+    //Reload
     t.reload = (option,callback) => {
         option = option || {}
 

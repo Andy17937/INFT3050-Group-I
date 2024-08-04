@@ -191,7 +191,7 @@
 			var vue = new Vue({
 				el: '#app',
 				data: {
-					// 轮播图
+					// rotating chart
 					swiperList: [],
 					// 数据详情
 					detail: {
@@ -309,7 +309,7 @@
 						console.log(download);
 						$("#down")[0].click();
 					},
-					// 跨表
+					// spanning table
 					onAcrossTap(acrossTable){
 						localStorage.setItem('crossTable',`yingyeetongji`);
 						localStorage.setItem('crossObj', JSON.stringify(this.detail));
@@ -351,7 +351,7 @@
 					// 		'</div>';
 					// }
 					// jquery('#swiper-item').html(swiperItemHtml);
-					// 轮播图
+					// rotating chart
 					vue.$nextTick(() => {
 					  carousel.render({
 					  	elem: '#swiper',

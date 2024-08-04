@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <el-alert title="确认Pay前请先核对订单Message" type="success" :closable="false"></el-alert>
+    <el-alert title="Confirm payment前请先核对订单Message" type="success" :closable="false"></el-alert>
     <!-- <div class="top-content">
       <span>收款人</span>
       <el-input style="width:300px" v-model="name" placeholder="收款人"></el-input>
@@ -44,7 +44,7 @@
       </div>
     </div>
     <div class="buton-content">
-      <el-button @click="submitTap" type="primary">确认Pay</el-button>
+      <el-button @click="submitTap" type="primary">Confirm payment</el-button>
       <el-button @click="back()">返回</el-button>
     </div>
   </div>
@@ -94,7 +94,7 @@ export default {
         }).then(({ data }) => {
           if (data && data.code === 0) {
             this.$message({
-              message: "Pay成功",
+              message: "Payment Succeed",
               type: "success",
               duration: 1500,
               onClose: () => {

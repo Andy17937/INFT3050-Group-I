@@ -68,7 +68,7 @@
 					</div>
 				</div>
 				<button style="margin-left: 20px;width:860px;height: 40px;line-height: 40px;" class="layui-btn btn-submit btn-theme"
-				 lay-submit lay-filter="*">确认Pay</button>
+				 lay-submit lay-filter="*">Confirm payment</button>
 			</form>
 
 		</div>
@@ -131,7 +131,7 @@
 					console.log(data);
 					vue.user.money = Number(vue.user.money) + Number(data.money);
 					http.requestJson(`${table}/update`, 'post', vue.user, function(data) {
-						layer.msg('充Value成功', {
+						layer.msg('Top up Succeed', {
 							time: 2000,
 							icon: 6
 						}, function() {

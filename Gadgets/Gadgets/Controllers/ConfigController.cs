@@ -20,7 +20,7 @@ namespace Gadgets.Controllers
         private readonly ConfigService _bll;
 
         /// <summary>
-        /// 构造函数
+        /// constructor
         /// </summary>
         public ConfigController()
         {
@@ -28,7 +28,7 @@ namespace Gadgets.Controllers
         }
 
         /// <summary>
-        /// 分Page接口
+        /// sub-Page interface
         /// </summary>
         /// <param name="page">当前Page</param>
         /// <param name="limit">每Page记录的长度</param>
@@ -50,7 +50,7 @@ namespace Gadgets.Controllers
         }
 
         /// <summary>
-        /// 分Page接口
+        /// sub-Page interface
         /// </summary>
         /// <param name="page">当前Page</param>
         /// <param name="limit">每Page记录的长度</param>
@@ -71,9 +71,9 @@ namespace Gadgets.Controllers
         }
 
         /// <summary>
-        /// 更新接口
+        /// Updating the interface
         /// </summary>
-        /// <param name="entity">更新实体对象</param>
+        /// <param name="entity">Updating Entity Objects</param>
         /// <returns></returns>
         [HttpPost]
         [Authorize(Roles = "Admin,Client")]
@@ -115,9 +115,9 @@ namespace Gadgets.Controllers
         }
 
         /// <summary>
-        /// 详情接口
+        /// Detailed Interface
         /// </summary>
-        /// <param name="id">主键id</param>
+        /// <param name="id">Primary key id</param>
         /// <returns></returns>
         [HttpGet("{id}")]
         [Authorize(Roles = "Admin,Client")]

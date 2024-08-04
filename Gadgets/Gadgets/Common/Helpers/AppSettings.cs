@@ -15,9 +15,9 @@ namespace Gadgets.Common.Helpers
         }
 
         /// <summary>
-        /// 封装要Action的字符
+        /// Encapsulate the characters to be Action
         /// </summary>
-        /// <param name="sections">节点配置</param>
+        /// <param name="sections">Node Configuration</param>
         /// <returns></returns>
         public static string App(params string[] sections)
         {
@@ -37,7 +37,7 @@ namespace Gadgets.Common.Helpers
         }
 
         /// <summary>
-        /// 递归获取配置Message数组
+        /// Recursively get the ConfigurationMessage array
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <param name="sections"></param>
@@ -75,7 +75,7 @@ namespace Gadgets.Common.Helpers
         }
 
         /// <summary>
-        /// 获取配置文件 
+        /// Get configuration file 
         /// </summary>
         /// <param name="key">eg: WeChat:Token</param>
         /// <returns></returns>
@@ -85,11 +85,11 @@ namespace Gadgets.Common.Helpers
         }
 
         /// <summary>
-        /// 获取配置节点并转换成指定类型
+        /// Get the configuration node and convert it to the specified type
         /// </summary>
-        /// <typeparam name="T">节点类型</typeparam>
-        /// <param name="key">节点路径</param>
-        /// <returns>节点类型实例</returns>
+        /// <typeparam name="T">Node type</typeparam>
+        /// <param name="key">Node Path</param>
+        /// <returns>Examples of node types</returns>
         public static T Get<T>(string key)
         {
             return Configuration.GetSection(key).Get<T>();

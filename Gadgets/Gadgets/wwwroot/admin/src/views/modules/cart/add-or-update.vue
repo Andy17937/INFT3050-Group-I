@@ -10,14 +10,14 @@
     >
       <el-row>
                         <el-col :span="12">
-        <el-form-item class="input" v-if="type!='info'"  label="Item表名" prop="tablename">
+        <el-form-item class="input" v-if="type!='info'"  label="Itemtable name" prop="tablename">
           <el-input v-model="ruleForm.tablename" 
-              placeholder="Item表名" clearable  :readonly="ro.tablename"></el-input>
+              placeholder="Itemtable name" clearable  :readonly="ro.tablename"></el-input>
         </el-form-item>
         <div v-else>
-          <el-form-item class="input" label="Item表名" prop="tablename">
+          <el-form-item class="input" label="Itemtable name" prop="tablename">
               <el-input v-model="ruleForm.tablename" 
-                placeholder="Item表名" readonly></el-input>
+                placeholder="Itemtable name" readonly></el-input>
           </el-form-item>
         </div>
       </el-col>

@@ -58,7 +58,7 @@
 	<body>
 
 		<div id="app">
-			<!-- 轮播图 -->
+			<!-- rotating chart -->
 			<div class="layui-carousel" id="swiper" :style='{"boxShadow":"","margin":"0px auto","borderColor":"rgba(0,0,0,.3)","borderRadius":"0px","borderWidth":"0","width":"100%","borderStyle":"solid"}'>
 			  <div carousel-item id="swiper-item">
 				<div v-for="(item,index) in swiperList" :key="index">
@@ -66,7 +66,7 @@
 				</div>
 			  </div>
 			</div>
-			<!-- 轮播图 -->
+			<!-- rotating chart -->
 			
 			<!-- 标题 -->
 			<div class="index-title" :style='{"padding":"10px","boxShadow":"0 0 20px #e0dedc","margin":"10px auto","borderColor":"rgba(0,0,0,.3)","backgroundColor":"rgba(255, 255, 255, 1)","color":"#333","borderRadius":"4px","borderWidth":"0","fontSize":"20px","borderStyle":"solid","height":"auto"}'>
@@ -118,7 +118,7 @@
 			var vue = new Vue({
 				el: '#app',
 				data: {
-					// 轮播图
+					// rotating chart
 					swiperList: [{
 						img: '../../img/banner.jpg'
 					}],
@@ -153,7 +153,7 @@
 
 				var limit = 8;
 
-				// 获取轮播图 数据
+				// Getting rotating chart data
 				http.request('config/list', 'get', {
 					page: 1,
 					limit: 5
@@ -169,7 +169,7 @@
 							}
 						}
 						jquery('#swiper-item').html(swiperItemHtml);
-						// 轮播图
+						// rotating chart
 						vue.$nextTick(() => {
 						  carousel.render({
 						  	elem: '#swiper',

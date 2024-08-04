@@ -92,9 +92,9 @@ namespace Gadgets
             //     {
             //         Version = "v1.0.0",
             //         Title = "Logistics WebAPI",
-            //         Description = "框架集合",
+            //         Description = "1",
             //         TermsOfService = "None",
-            //         Contact = new Swashbuckle.AspNetCore.Swagger.Contact { Name = "Xiezn", Email = "2521136840@qq.com", Url = "#" }
+            //         Contact = new Swashbuckle.AspNetCore.Swagger.Contact { Name = "Andy", Email = "andy@sstap.sg", Url = "#" }
             //     });
             //     c.OperationFilter<SwaggerFileUploadFilter>();
             //     //Add读取注释服务

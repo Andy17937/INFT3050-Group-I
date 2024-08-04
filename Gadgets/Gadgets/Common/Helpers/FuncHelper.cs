@@ -9,7 +9,7 @@ namespace Gadgets.Common.Helpers
     public static class FuncHelper
     {
         /// <summary>
-        /// 文件目录如果不存在，就创建一个新的目录
+        /// Create a new directory if the file directory does not exist
         /// </summary>
         /// <param name="path"></param>
         public static void DicCreate(string path)
@@ -21,9 +21,9 @@ namespace Gadgets.Common.Helpers
         }
 
         /// <summary>
-        /// 图片转Base64编码
+        /// Image to Base64 encoding
         /// </summary>
-        /// <param name="imageFullName">图片完整路径</param>
+        /// <param name="imageFullName">Image Full Path</param>
         /// <returns></returns>
         public static string ImageToBase64(string imageFullName)
         {

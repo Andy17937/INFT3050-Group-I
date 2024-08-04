@@ -16,7 +16,7 @@ namespace Gadgets.Common.Helpers
     public class JwtHelper
     {
         /// <summary>
-        /// 颁发JWT字符串
+        /// Issuing JWT strings
         /// </summary>
         /// <param name="tokenModel"></param>
         /// <returns></returns>
@@ -25,18 +25,18 @@ namespace Gadgets.Common.Helpers
             var dateTime = DateTime.UtcNow;
             var claims = new Claim[]
             {
-                new Claim(JwtRegisteredClaimNames.Jti, tokenModel.Uid.ToString()),//用户Id
+                new Claim(JwtRegisteredClaimNames.Jti, tokenModel.Uid.ToString()),//User Id
                 new Claim("Uname", tokenModel.Uname),
-                new Claim("Role", tokenModel.Role),//身份
+                new Claim("Role", tokenModel.Role),//Role
                 new Claim("Project", tokenModel.Project),
                 new Claim("UNickname", tokenModel.UNickname),
                 new Claim(JwtRegisteredClaimNames.Iat,dateTime.ToString(), ClaimValueTypes.Integer64)
             };
-            //秘钥
+            //secret key
             JwtAuthConfig jwtAuthConfig = ConfigHelper.GetConfig<JwtAuthConfig>("JwtAuth");
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtAuthConfig.SecurityKey));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-            //过期时间
+            //expiration date
             double exp = 0;
             switch (tokenModel.TokenType)
             {
@@ -55,7 +55,7 @@ namespace Gadgets.Common.Helpers
             }
             var jwt = new JwtSecurityToken(
                 issuer: jwtAuthConfig.Issuer,
-                claims: claims, //声明集合
+                claims: claims, //declarative set
                 expires: dateTime.AddHours(exp),
                 signingCredentials: creds);
 
@@ -66,9 +66,9 @@ namespace Gadgets.Common.Helpers
         }
 
         /// <summary>
-        /// 从令牌中获取数据声明
+        /// Getting a data statement from a token
         /// </summary>
-        /// <param name="token">令牌</param>
+        /// <param name="token">token</param>
         /// <returns></returns>
         public static JwtSecurityToken? ParseToken(string token)
         {
@@ -109,7 +109,7 @@ namespace Gadgets.Common.Helpers
 
 
         /// <summary>
-        /// 验证Token
+        /// validate Token
         /// </summary>
         /// <returns></returns>
         public static TokenValidationParameters ValidParameters()
@@ -138,7 +138,7 @@ namespace Gadgets.Common.Helpers
 
             if (jwtSettings == null || jwtSettings.SecurityKey.IsNullOrEmpty())
             {
-                throw new Exception("JwtSettings获取失败");
+                throw new Exception("JwtSettings failed to get");
             }
             var key = Encoding.ASCII.GetBytes(jwtSettings.SecurityKey);
 
@@ -150,9 +150,9 @@ namespace Gadgets.Common.Helpers
                 ValidIssuer = jwtSettings.Issuer,
                 ValidAudience = jwtSettings.Audience,
                 IssuerSigningKey = new SymmetricSecurityKey(key),
-                ValidateLifetime = true,//YesNo验证Token有效期，使用当前时间与Token的Claims中的NotBefore和Expires对比
+                ValidateLifetime = true,//Whether to validate the Token expiration date, using the current time compared to NotBefore and Expires in the Token's Claims
                 ClockSkew = TimeSpan.FromSeconds(30)
-                //RequireExpirationTime = true,//过期时间
+                //RequireExpirationTime = true,//expiration date
             };
             return tokenDescriptor;
         }
@@ -163,38 +163,38 @@ namespace Gadgets.Common.Helpers
         public class JwtSettings
         {
             /// <summary>
-            /// tokenYes谁颁发的
+            /// Who issued the token?
             /// </summary>
             public string Issuer { get; set; }
 
             /// <summary>
-            /// token可以给那些客户端使用
+            /// The token can be used by those clients
             /// </summary>
             public string Audience { get; set; }
 
             /// <summary>
-            /// 加密的key（SecretKey必须大于16个,Yes大于，不Yes大于等于）
+            /// Encrypted key
             /// </summary>
             public string SecretKey { get; set; }
 
             /// <summary>
-            /// token时间（分）
+            /// Token time (minutes)
             /// </summary>
             public int Expire { get; set; } = 1440;
 
             /// <summary>
-            /// 刷新token时长
+            /// Refresh token length
             /// </summary>
             public int RefreshTokenTime { get; set; }
 
             /// <summary>
-            /// token类型
+            /// Token type
             /// </summary>
             public string TokenType { get; set; } = "Bearer";
         }
 
         /// <summary>
-        /// 解析
+        /// analyze
         /// </summary>
         /// <param name="jwtStr"></param>
         /// <returns></returns>

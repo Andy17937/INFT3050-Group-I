@@ -289,7 +289,7 @@
 			var vue = new Vue({
 				el: '#app',
 				data: {
-					// 轮播图
+					// rotating chart
 					swiperList: [],
 					// 数据详情
 					detail: {
@@ -421,7 +421,7 @@
 						console.log(download);
 						$("#down")[0].click();
 					},
-					// 跨表
+					// spanning table
 					onAcrossTap(acrossTable){
 						localStorage.setItem('crossTable',`shangpinxinxi`);
 						localStorage.setItem('crossObj', JSON.stringify(this.detail));
@@ -456,7 +456,7 @@
 						}, (res) => {
 							debugger
 							if (res.data.list.length > 0) {
-								layer.msg("该Item已经Add to Cart", {
+								layer.msg("This Itemalready added to Cart", {
 									time: 2000,
 									icon: 5
 								});
@@ -472,7 +472,7 @@
 								price: this.detail.price,
 								discountprice: this.detail.vipprice ? this.detail.vipprice : 0
 							}, (res) => {
-								layer.msg("Add to Cart成功", {
+								layer.msg("Add to Cart Succeed", {
 									time: 2000,
 									icon: 6
 								});
@@ -554,7 +554,7 @@
 				http.request(`${vue.detailTable}/detail/` + id, 'get', {}, function(res) {
 					// 详情Message
 					vue.detail = res.data
-															// 轮播图片
+															// rotating chart片
 					vue.swiperList = vue.detail.shangpintupian ? vue.detail.shangpintupian.split(",") : [];
 																				vue.title = vue.detail.shangpinmingcheng;
 																																																																																																									// var swiperItemHtml = '';
@@ -565,7 +565,7 @@
 					// 		'</div>';
 					// }
 					// jquery('#swiper-item').html(swiperItemHtml);
-					// 轮播图
+					// rotating chart
 					vue.$nextTick(() => {
 					  carousel.render({
 					  	elem: '#swiper',

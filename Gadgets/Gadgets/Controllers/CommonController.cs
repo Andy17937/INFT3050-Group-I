@@ -24,7 +24,7 @@ namespace Gadgets.Controllers
         private readonly ConfigService _configBLL;
 
         /// <summary>
-        /// 构造函数
+        /// constructor
         /// </summary>
         public CommonController(IHostingEnvironment hostingEnvironment)
         {
@@ -35,10 +35,10 @@ namespace Gadgets.Controllers
         }
 
         /// <summary>
-        /// 获取某表的某个字段List接口
+        /// Get a field of a table List interface
         /// </summary>
-        /// <param name="tableName">表名</param>
-        /// <param name="columnName">列名</param>
+        /// <param name="tableName">table name</param>
+        /// <param name="columnName"></param>
         /// <returns></returns>
         [HttpGet("{tableName}/{columnName}")]
         public JsonResult Option(string tableName, string columnName)
@@ -63,10 +63,10 @@ namespace Gadgets.Controllers
         }
 
         /// <summary>
-        /// 根据option字段Value获取某表的单行记录接口
+        /// Get a single row of a table based on the option field Value interface
         /// </summary>
-        /// <param name="tableName">表名</param>
-        /// <param name="columnName">列名</param>
+        /// <param name="tableName">table name</param>
+        /// <param name="columnName">listings</param>
         /// <param name="columnValue">列Value</param>
         /// <returns></returns>
         [HttpGet("{tableName}/{columnName}")]
@@ -83,10 +83,10 @@ namespace Gadgets.Controllers
         }
 
         /// <summary>
-        /// 根据主键idModifytable表的sfshStatus接口
+        /// 根据Primary key idModifytable表的sfshStatus接口
         /// </summary>
-        /// <param name="tableName">表名</param>
-        /// <param name="id">主键id</param>
+        /// <param name="tableName">table name</param>
+        /// <param name="id">Primary key id</param>
         /// <param name="sfsh">当前审核Status（Yes/No）</param>
         /// <returns></returns>
         [HttpPost("{tableName}")]
@@ -111,8 +111,8 @@ namespace Gadgets.Controllers
         /// <summary>
         /// 获取需要提醒的记录数接口
         /// </summary>
-        /// <param name="tableName">表名</param>
-        /// <param name="columnName">列名</param>
+        /// <param name="tableName">table name</param>
+        /// <param name="columnName">listings</param>
         /// <param name="type">类型（1表示数字比较提醒，2表示日期比较提醒）</param>
         /// <param name="remindStart">remindStart小于等于columnName满足Result件提醒,当比较日期时，该Value表示天数</param>
         /// <param name="remindEnd">columnName小于等于remindEnd 满足Result件提醒,当比较日期时，该Value表示天数</param>
@@ -133,8 +133,8 @@ namespace Gadgets.Controllers
         /// <summary>
         /// 计算规则接口
         /// </summary>
-        /// <param name="tableName">表名</param>
-        /// <param name="columnName">列名</param>
+        /// <param name="tableName">table name</param>
+        /// <param name="columnName">listings</param>
         /// <returns></returns>
         [HttpGet("{tableName}/{columnName}")]
         public JsonResult Cal(string tableName, string columnName)
@@ -215,8 +215,8 @@ namespace Gadgets.Controllers
         /// <summary>
         /// 类别统计接口
         /// </summary>
-        /// <param name="tableName">表名</param>
-        /// <param name="columnName">列名</param>
+        /// <param name="tableName">table name</param>
+        /// <param name="columnName">listings</param>
         /// <returns></returns>
         [HttpGet("{tableName}/{columnName}")]
         public JsonResult Group(string tableName, string columnName)
@@ -234,9 +234,9 @@ namespace Gadgets.Controllers
         /// <summary>
         /// 按Value统计接口
         /// </summary>
-        /// <param name="tableName">表名</param>
-        /// <param name="xColumnName">列名</param>
-        /// <param name="yColumnName">列名</param>
+        /// <param name="tableName">table name</param>
+        /// <param name="xColumnName">listings</param>
+        /// <param name="yColumnName">listings</param>
         /// <returns></returns>
         [HttpGet("{tableName}/{xColumnName}/{yColumnName}")]
         public JsonResult Value(string tableName, string xColumnName, string yColumnName)
